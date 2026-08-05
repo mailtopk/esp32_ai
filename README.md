@@ -1,34 +1,34 @@
 # User Case
-wanted the ESP32-S3 to understand simple English commands like:
+Wanted the ESP32-S3 micro controler to understand simple English commands like:
+    - Switch off the light
+    - Switch off the light
 
 ## Train Model
 ### Dataset
-text,label
-turn on the light,LIGHT_ON
-switch off the light,LIGHT_OFF
-hello,UNKNOWN
+|text | label |
+|---|---|
+|turn on the light|LIGHT_ON|
+|switch off the light | LIGHT_OFF|
+|hello |UNKNOWN|
 
 ### Text → Numbers
+Neural networks can only understand numbers, lets use Keras tokenizer to convert the text into unmbers.
+Suppose our vocabulary like "turn on light" becomes
+ - turn      -> 28
+ - on        -> 15
+ - light     -> 5
+ - switch    -> 21
+ - off       -> 13
 
-Neural networks cannot understand words.
-They only understand numbers.
-We used a Keras tokenizer.
-Suppose our vocabulary becomes
+Another example : 
+    *switch on light* -> [21, 15, 5, 0, 0, 0]
 
-turn      -> 28
-on        -> 15
-light     -> 5
-switch    -> 21
-off       -> 13
+ - switch = 21
+ - on     = 15
+ - light  = 5
 
-switch on light
-[21, 15, 5, 0, 0, 0]
-
-switch = 21
-on     = 15
-light  = 5
-
-ESP32 is : {21,15,5,0,0,0}
+On ESP32 micro controller it is : {21,15,5,0,0,0}
+0's are padding
 
 ### Vocabulary
 The tokenizer built a dictionary.
@@ -57,12 +57,10 @@ The ESP32 has no filesystem by default. light_model.tflite
 convert light weight to tflite which is model.h file in this project
 
 ### Tokenizer on MC
-ESP32 cannot execute Python. So we manually recreated
-This "switch on lights" converts to "[21,15,44]" on MC
+ESP32-S3 cannot execute Python. So must manually recreated. This "switch on lights" converts to "[21,15,44]" on MC
 
 ### TensorFlow Lite Micro
-the ESP32 runs TensorFlow Lite Micro
-It includes
+The ESP32-S3 runs TensorFlow Lite Micro and it includes
  - interpreter
  - memory allocator
  - operators
@@ -70,10 +68,9 @@ It includes
 Everything is optimized for embedded devices.
 
 ### Tensor Arena
-
-The ESP32 doesn't allocate memory dynamically for every operation.
-
+The ESP32-S3 doesn't allocate memory dynamically for every operation.
 We create one block of RAM:
+
 ```
 uint8_t tensor_arena[20 * 1024];
 ```
@@ -87,7 +84,6 @@ Sentence -> Tokenizer -> Word IDs -> Padding ->  Input Tensor -> Interpreter -> 
 LIGHT_ON ->  digitalWrite(GPIO,HIGH)
 
 ### Complete flow
-
 ```mermaid
 flowchart TD
     %% Styling and Subgraphs

@@ -1,0 +1,1543 @@
+,text,label
+0,enable the light,LIGHT_ON
+1,enable the LED,LIGHT_ON
+2,hey switch on the lamp,LIGHT_ON
+3,turn on the kitchen light,LIGHT_ON
+4,power on the bedroom light,LIGHT_ON
+5,turn on the light,LIGHT_ON
+6,could you switch on the kitchen light,LIGHT_ON
+7,turn on the kitchen light,LIGHT_ON
+8,can you enable the kitchen light,LIGHT_ON
+9,could you switch on the bedroom light,LIGHT_ON
+10,hey assistant activate the light,LIGHT_ON
+11,hey please turn the lamp on,LIGHT_ON
+12,please LED on,LIGHT_ON
+13,hey assistant switch on the lamp,LIGHT_ON
+14,activate the light,LIGHT_ON
+15,please light on,LIGHT_ON
+16,could you please turn the LED on,LIGHT_ON
+17,hey activate the light,LIGHT_ON
+18,kitchen light on,LIGHT_ON
+19,could you light on,LIGHT_ON
+20,hey assistant activate the kitchen light,LIGHT_ON
+21,activate the kitchen light,LIGHT_ON
+22,enable the light,LIGHT_ON
+23,hey assistant enable the lamp,LIGHT_ON
+24,hey assistant activate the light,LIGHT_ON
+25,can you switch on the light,LIGHT_ON
+26,hey activate the bedroom light,LIGHT_ON
+27,please turn the LED on,LIGHT_ON
+28,activate the LED,LIGHT_ON
+29,hey enable the LED,LIGHT_ON
+30,could you enable the light,LIGHT_ON
+31,could you enable the lamp,LIGHT_ON
+32,enable the lamp,LIGHT_ON
+33,please bedroom light on,LIGHT_ON
+34,enable the kitchen light,LIGHT_ON
+35,hey assistant enable the LED,LIGHT_ON
+36,please turn the light on,LIGHT_ON
+37,hey assistant please turn the light on,LIGHT_ON
+38,please activate the bedroom light,LIGHT_ON
+39,could you turn on the lamp,LIGHT_ON
+40,enable the LED,LIGHT_ON
+41,can you enable the bedroom light,LIGHT_ON
+42,enable the bedroom light,LIGHT_ON
+43,activate the lamp,LIGHT_ON
+44,could you enable the kitchen light,LIGHT_ON
+45,can you activate the kitchen light,LIGHT_ON
+46,please power on the bedroom light,LIGHT_ON
+47,could you switch on the lamp,LIGHT_ON
+48,hey assistant light on,LIGHT_ON
+49,turn on the light,LIGHT_ON
+50,hey assistant enable the lamp,LIGHT_ON
+51,could you enable the bedroom light,LIGHT_ON
+52,can you turn on the bedroom light,LIGHT_ON
+53,could you power on the bedroom light,LIGHT_ON
+54,hey assistant activate the kitchen light,LIGHT_ON
+55,hey turn on the light,LIGHT_ON
+56,hey assistant power on the LED,LIGHT_ON
+57,enable the LED,LIGHT_ON
+58,activate the bedroom light,LIGHT_ON
+59,hey light on,LIGHT_ON
+60,could you enable the LED,LIGHT_ON
+61,could you please turn the lamp on,LIGHT_ON
+62,hey assistant turn on the LED,LIGHT_ON
+63,could you enable the kitchen light,LIGHT_ON
+64,please switch on the lamp,LIGHT_ON
+65,could you please turn the lamp on,LIGHT_ON
+66,please turn the kitchen light on,LIGHT_ON
+67,can you power on the LED,LIGHT_ON
+68,please turn on the light,LIGHT_ON
+69,please turn the LED on,LIGHT_ON
+70,could you turn on the lamp,LIGHT_ON
+71,hey turn on the light,LIGHT_ON
+72,hey assistant light on,LIGHT_ON
+73,power on the lamp,LIGHT_ON
+74,could you enable the bedroom light,LIGHT_ON
+75,could you switch on the LED,LIGHT_ON
+76,can you please turn the kitchen light on,LIGHT_ON
+77,hey assistant switch on the kitchen light,LIGHT_ON
+78,hey enable the lamp,LIGHT_ON
+79,hey activate the bedroom light,LIGHT_ON
+80,can you enable the LED,LIGHT_ON
+81,power on the bedroom light,LIGHT_ON
+82,switch on the lamp,LIGHT_ON
+83,could you activate the light,LIGHT_ON
+84,could you power on the lamp,LIGHT_ON
+85,switch on the light,LIGHT_ON
+86,enable the light,LIGHT_ON
+87,hey assistant turn on the light,LIGHT_ON
+88,could you activate the light,LIGHT_ON
+89,hey switch on the LED,LIGHT_ON
+90,could you lamp on,LIGHT_ON
+91,could you switch on the kitchen light,LIGHT_ON
+92,hey assistant lamp on,LIGHT_ON
+93,bedroom light on,LIGHT_ON
+94,hey turn on the light,LIGHT_ON
+95,can you LED on,LIGHT_ON
+96,hey assistant bedroom light on,LIGHT_ON
+97,hey enable the light,LIGHT_ON
+98,enable the light,LIGHT_ON
+99,hey assistant LED on,LIGHT_ON
+100,please turn the light on,LIGHT_ON
+101,could you switch on the lamp,LIGHT_ON
+102,can you lamp on,LIGHT_ON
+103,can you switch on the LED,LIGHT_ON
+104,can you switch on the light,LIGHT_ON
+105,please turn the kitchen light on,LIGHT_ON
+106,hey assistant turn on the kitchen light,LIGHT_ON
+107,hey assistant turn on the light,LIGHT_ON
+108,please turn the lamp on,LIGHT_ON
+109,can you bedroom light on,LIGHT_ON
+110,switch on the bedroom light,LIGHT_ON
+111,switch on the bedroom light,LIGHT_ON
+112,hey assistant LED on,LIGHT_ON
+113,please please turn the bedroom light on,LIGHT_ON
+114,hey kitchen light on,LIGHT_ON
+115,enable the bedroom light,LIGHT_ON
+116,switch on the LED,LIGHT_ON
+117,hey turn on the kitchen light,LIGHT_ON
+118,hey power on the light,LIGHT_ON
+119,activate the light,LIGHT_ON
+120,could you power on the bedroom light,LIGHT_ON
+121,please turn the kitchen light on,LIGHT_ON
+122,turn on the kitchen light,LIGHT_ON
+123,please turn the lamp on,LIGHT_ON
+124,hey power on the light,LIGHT_ON
+125,can you please turn the lamp on,LIGHT_ON
+126,turn on the kitchen light,LIGHT_ON
+127,power on the kitchen light,LIGHT_ON
+128,can you power on the light,LIGHT_ON
+129,could you enable the kitchen light,LIGHT_ON
+130,please power on the LED,LIGHT_ON
+131,switch on the LED,LIGHT_ON
+132,activate the bedroom light,LIGHT_ON
+133,can you enable the LED,LIGHT_ON
+134,activate the light,LIGHT_ON
+135,could you kitchen light on,LIGHT_ON
+136,could you turn on the light,LIGHT_ON
+137,please switch on the kitchen light,LIGHT_ON
+138,switch on the LED,LIGHT_ON
+139,please switch on the LED,LIGHT_ON
+140,hey assistant switch on the bedroom light,LIGHT_ON
+141,could you power on the LED,LIGHT_ON
+142,please turn the kitchen light on,LIGHT_ON
+143,please enable the kitchen light,LIGHT_ON
+144,enable the light,LIGHT_ON
+145,activate the light,LIGHT_ON
+146,enable the kitchen light,LIGHT_ON
+147,could you activate the LED,LIGHT_ON
+148,switch on the LED,LIGHT_ON
+149,could you enable the LED,LIGHT_ON
+150,hey assistant LED on,LIGHT_ON
+151,hey turn on the light,LIGHT_ON
+152,LED on,LIGHT_ON
+153,hey assistant turn on the LED,LIGHT_ON
+154,switch on the LED,LIGHT_ON
+155,could you enable the bedroom light,LIGHT_ON
+156,could you enable the bedroom light,LIGHT_ON
+157,turn on the light,LIGHT_ON
+158,could you enable the lamp,LIGHT_ON
+159,could you turn on the LED,LIGHT_ON
+160,can you power on the lamp,LIGHT_ON
+161,please switch on the light,LIGHT_ON
+162,please activate the light,LIGHT_ON
+163,hey switch on the lamp,LIGHT_ON
+164,hey assistant turn on the LED,LIGHT_ON
+165,could you power on the bedroom light,LIGHT_ON
+166,enable the lamp,LIGHT_ON
+167,hey assistant please turn the lamp on,LIGHT_ON
+168,can you please turn the lamp on,LIGHT_ON
+169,hey turn on the lamp,LIGHT_ON
+170,hey assistant activate the bedroom light,LIGHT_ON
+171,please enable the lamp,LIGHT_ON
+172,can you switch on the light,LIGHT_ON
+173,hey assistant please turn the light on,LIGHT_ON
+174,lamp on,LIGHT_ON
+175,please please turn the bedroom light on,LIGHT_ON
+176,activate the lamp,LIGHT_ON
+177,can you turn on the lamp,LIGHT_ON
+178,hey assistant activate the LED,LIGHT_ON
+179,please turn on the LED,LIGHT_ON
+180,can you enable the kitchen light,LIGHT_ON
+181,please enable the kitchen light,LIGHT_ON
+182,please turn on the light,LIGHT_ON
+183,please switch on the kitchen light,LIGHT_ON
+184,could you turn on the light,LIGHT_ON
+185,hey LED on,LIGHT_ON
+186,can you please turn the LED on,LIGHT_ON
+187,power on the kitchen light,LIGHT_ON
+188,kitchen light on,LIGHT_ON
+189,hey activate the light,LIGHT_ON
+190,could you light on,LIGHT_ON
+191,hey please turn the kitchen light on,LIGHT_ON
+192,please enable the lamp,LIGHT_ON
+193,hey light on,LIGHT_ON
+194,please activate the kitchen light,LIGHT_ON
+195,hey enable the light,LIGHT_ON
+196,please activate the kitchen light,LIGHT_ON
+197,please enable the bedroom light,LIGHT_ON
+198,could you LED on,LIGHT_ON
+199,can you switch on the lamp,LIGHT_ON
+200,hey enable the bedroom light,LIGHT_ON
+201,could you enable the lamp,LIGHT_ON
+202,can you power on the LED,LIGHT_ON
+203,please power on the light,LIGHT_ON
+204,can you activate the lamp,LIGHT_ON
+205,could you please turn the kitchen light on,LIGHT_ON
+206,can you enable the LED,LIGHT_ON
+207,hey bedroom light on,LIGHT_ON
+208,can you switch on the kitchen light,LIGHT_ON
+209,hey please turn the lamp on,LIGHT_ON
+210,could you turn on the LED,LIGHT_ON
+211,please enable the kitchen light,LIGHT_ON
+212,hey turn on the lamp,LIGHT_ON
+213,hey assistant activate the lamp,LIGHT_ON
+214,switch on the lamp,LIGHT_ON
+215,can you turn on the lamp,LIGHT_ON
+216,can you power on the light,LIGHT_ON
+217,kitchen light on,LIGHT_ON
+218,can you enable the bedroom light,LIGHT_ON
+219,lamp on,LIGHT_ON
+220,hey assistant enable the light,LIGHT_ON
+221,hey assistant please turn the light on,LIGHT_ON
+222,lamp on,LIGHT_ON
+223,can you please turn the kitchen light on,LIGHT_ON
+224,turn on the kitchen light,LIGHT_ON
+225,can you please turn the light on,LIGHT_ON
+226,hey switch on the bedroom light,LIGHT_ON
+227,could you power on the kitchen light,LIGHT_ON
+228,could you activate the bedroom light,LIGHT_ON
+229,can you please turn the kitchen light on,LIGHT_ON
+230,can you please turn the kitchen light on,LIGHT_ON
+231,can you switch on the bedroom light,LIGHT_ON
+232,hey assistant activate the lamp,LIGHT_ON
+233,hey assistant enable the LED,LIGHT_ON
+234,can you please turn the kitchen light on,LIGHT_ON
+235,please enable the lamp,LIGHT_ON
+236,hey light on,LIGHT_ON
+237,please activate the lamp,LIGHT_ON
+238,could you activate the LED,LIGHT_ON
+239,turn on the lamp,LIGHT_ON
+240,hey switch on the bedroom light,LIGHT_ON
+241,switch on the lamp,LIGHT_ON
+242,please bedroom light on,LIGHT_ON
+243,can you power on the bedroom light,LIGHT_ON
+244,hey assistant turn on the lamp,LIGHT_ON
+245,hey assistant bedroom light on,LIGHT_ON
+246,hey assistant power on the light,LIGHT_ON
+247,can you please turn the kitchen light on,LIGHT_ON
+248,please light on,LIGHT_ON
+249,hey assistant activate the bedroom light,LIGHT_ON
+250,could you please turn the bedroom light on,LIGHT_ON
+251,hey assistant enable the kitchen light,LIGHT_ON
+252,can you power on the lamp,LIGHT_ON
+253,can you switch on the LED,LIGHT_ON
+254,can you light on,LIGHT_ON
+255,hey activate the bedroom light,LIGHT_ON
+256,switch on the bedroom light,LIGHT_ON
+257,power on the kitchen light,LIGHT_ON
+258,could you kitchen light on,LIGHT_ON
+259,enable the light,LIGHT_ON
+260,enable the bedroom light,LIGHT_ON
+261,please turn the bedroom light on,LIGHT_ON
+262,can you turn on the LED,LIGHT_ON
+263,can you activate the lamp,LIGHT_ON
+264,hey assistant activate the LED,LIGHT_ON
+265,hey assistant LED on,LIGHT_ON
+266,please please turn the bedroom light on,LIGHT_ON
+267,can you please turn the light on,LIGHT_ON
+268,turn on the kitchen light,LIGHT_ON
+269,hey activate the lamp,LIGHT_ON
+270,hey assistant turn on the light,LIGHT_ON
+271,turn on the lamp,LIGHT_ON
+272,could you please turn the light on,LIGHT_ON
+273,switch on the lamp,LIGHT_ON
+274,could you light on,LIGHT_ON
+275,hey switch on the bedroom light,LIGHT_ON
+276,activate the LED,LIGHT_ON
+277,hey power on the kitchen light,LIGHT_ON
+278,hey assistant enable the light,LIGHT_ON
+279,please please turn the lamp on,LIGHT_ON
+280,turn on the kitchen light,LIGHT_ON
+281,hey activate the kitchen light,LIGHT_ON
+282,hey bedroom light on,LIGHT_ON
+283,could you switch on the light,LIGHT_ON
+284,enable the lamp,LIGHT_ON
+285,hey assistant enable the LED,LIGHT_ON
+286,hey assistant enable the kitchen light,LIGHT_ON
+287,hey assistant turn on the kitchen light,LIGHT_ON
+288,could you turn on the LED,LIGHT_ON
+289,LED on,LIGHT_ON
+290,power on the LED,LIGHT_ON
+291,hey assistant please turn the bedroom light on,LIGHT_ON
+292,can you light on,LIGHT_ON
+293,hey activate the bedroom light,LIGHT_ON
+294,switch on the bedroom light,LIGHT_ON
+295,hey enable the kitchen light,LIGHT_ON
+296,hey assistant activate the kitchen light,LIGHT_ON
+297,can you power on the bedroom light,LIGHT_ON
+298,please kitchen light on,LIGHT_ON
+299,hey assistant activate the lamp,LIGHT_ON
+300,can you turn on the LED,LIGHT_ON
+301,could you switch on the bedroom light,LIGHT_ON
+302,please power on the bedroom light,LIGHT_ON
+303,hey assistant turn on the bedroom light,LIGHT_ON
+304,can you activate the lamp,LIGHT_ON
+305,hey assistant switch on the LED,LIGHT_ON
+306,please activate the LED,LIGHT_ON
+307,could you power on the LED,LIGHT_ON
+308,turn on the kitchen light,LIGHT_ON
+309,hey turn on the lamp,LIGHT_ON
+310,could you bedroom light on,LIGHT_ON
+311,hey please turn the lamp on,LIGHT_ON
+312,can you bedroom light on,LIGHT_ON
+313,please turn the light on,LIGHT_ON
+314,can you activate the lamp,LIGHT_ON
+315,please enable the lamp,LIGHT_ON
+316,please enable the kitchen light,LIGHT_ON
+317,could you kitchen light on,LIGHT_ON
+318,hey activate the bedroom light,LIGHT_ON
+319,please power on the LED,LIGHT_ON
+320,please enable the bedroom light,LIGHT_ON
+321,activate the LED,LIGHT_ON
+322,please turn on the lamp,LIGHT_ON
+323,hey assistant turn on the kitchen light,LIGHT_ON
+324,enable the lamp,LIGHT_ON
+325,please switch on the bedroom light,LIGHT_ON
+326,hey assistant enable the kitchen light,LIGHT_ON
+327,please power on the kitchen light,LIGHT_ON
+328,please turn on the lamp,LIGHT_ON
+329,switch on the LED,LIGHT_ON
+330,hey activate the light,LIGHT_ON
+331,please power on the lamp,LIGHT_ON
+332,could you turn on the light,LIGHT_ON
+333,hey activate the lamp,LIGHT_ON
+334,please turn the bedroom light on,LIGHT_ON
+335,could you please turn the light on,LIGHT_ON
+336,can you activate the bedroom light,LIGHT_ON
+337,LED on,LIGHT_ON
+338,hey assistant turn on the LED,LIGHT_ON
+339,hey assistant light on,LIGHT_ON
+340,can you turn on the bedroom light,LIGHT_ON
+341,hey turn on the kitchen light,LIGHT_ON
+342,enable the light,LIGHT_ON
+343,please switch on the kitchen light,LIGHT_ON
+344,turn on the lamp,LIGHT_ON
+345,could you power on the bedroom light,LIGHT_ON
+346,power on the kitchen light,LIGHT_ON
+347,can you please turn the kitchen light on,LIGHT_ON
+348,please bedroom light on,LIGHT_ON
+349,can you please turn the kitchen light on,LIGHT_ON
+350,could you activate the kitchen light,LIGHT_ON
+351,hey turn on the kitchen light,LIGHT_ON
+352,hey turn on the lamp,LIGHT_ON
+353,hey switch on the LED,LIGHT_ON
+354,turn on the lamp,LIGHT_ON
+355,switch on the kitchen light,LIGHT_ON
+356,can you switch on the light,LIGHT_ON
+357,can you kitchen light on,LIGHT_ON
+358,activate the light,LIGHT_ON
+359,hey activate the LED,LIGHT_ON
+360,please turn the bedroom light on,LIGHT_ON
+361,please enable the lamp,LIGHT_ON
+362,hey please turn the kitchen light on,LIGHT_ON
+363,can you please turn the lamp on,LIGHT_ON
+364,turn on the kitchen light,LIGHT_ON
+365,please enable the lamp,LIGHT_ON
+366,please turn the lamp on,LIGHT_ON
+367,hey assistant turn on the lamp,LIGHT_ON
+368,hey activate the kitchen light,LIGHT_ON
+369,please please turn the kitchen light on,LIGHT_ON
+370,can you light on,LIGHT_ON
+371,hey enable the LED,LIGHT_ON
+372,could you LED on,LIGHT_ON
+373,can you power on the bedroom light,LIGHT_ON
+374,turn on the kitchen light,LIGHT_ON
+375,could you LED on,LIGHT_ON
+376,activate the light,LIGHT_ON
+377,could you switch on the kitchen light,LIGHT_ON
+378,could you turn on the LED,LIGHT_ON
+379,can you turn on the lamp,LIGHT_ON
+380,please power on the bedroom light,LIGHT_ON
+381,can you switch on the kitchen light,LIGHT_ON
+382,enable the bedroom light,LIGHT_ON
+383,can you LED on,LIGHT_ON
+384,hey activate the LED,LIGHT_ON
+385,please turn on the lamp,LIGHT_ON
+386,please bedroom light on,LIGHT_ON
+387,hey assistant enable the bedroom light,LIGHT_ON
+388,please turn the kitchen light on,LIGHT_ON
+389,please light on,LIGHT_ON
+390,activate the LED,LIGHT_ON
+391,hey assistant please turn the bedroom light on,LIGHT_ON
+392,hey power on the light,LIGHT_ON
+393,can you please turn the kitchen light on,LIGHT_ON
+394,light on,LIGHT_ON
+395,could you power on the LED,LIGHT_ON
+396,hey please turn the bedroom light on,LIGHT_ON
+397,light on,LIGHT_ON
+398,activate the kitchen light,LIGHT_ON
+399,hey activate the bedroom light,LIGHT_ON
+400,light on,LIGHT_ON
+401,hey assistant enable the kitchen light,LIGHT_ON
+402,please switch on the lamp,LIGHT_ON
+403,could you power on the light,LIGHT_ON
+404,light on,LIGHT_ON
+405,can you please turn the light on,LIGHT_ON
+406,can you turn on the lamp,LIGHT_ON
+407,could you enable the LED,LIGHT_ON
+408,can you enable the LED,LIGHT_ON
+409,can you please turn the bedroom light on,LIGHT_ON
+410,could you switch on the bedroom light,LIGHT_ON
+411,switch on the bedroom light,LIGHT_ON
+412,hey power on the kitchen light,LIGHT_ON
+413,please switch on the light,LIGHT_ON
+414,please please turn the bedroom light on,LIGHT_ON
+415,please please turn the kitchen light on,LIGHT_ON
+416,please please turn the light on,LIGHT_ON
+417,hey assistant enable the LED,LIGHT_ON
+418,hey power on the kitchen light,LIGHT_ON
+419,can you lamp on,LIGHT_ON
+420,please power on the bedroom light,LIGHT_ON
+421,hey assistant activate the kitchen light,LIGHT_ON
+422,can you power on the bedroom light,LIGHT_ON
+423,hey activate the lamp,LIGHT_ON
+424,can you switch on the kitchen light,LIGHT_ON
+425,switch on the bedroom light,LIGHT_ON
+426,hey activate the bedroom light,LIGHT_ON
+427,can you please turn the bedroom light on,LIGHT_ON
+428,can you enable the lamp,LIGHT_ON
+429,could you turn on the lamp,LIGHT_ON
+430,hey assistant power on the LED,LIGHT_ON
+431,turn on the bedroom light,LIGHT_ON
+432,power on the bedroom light,LIGHT_ON
+433,can you enable the lamp,LIGHT_ON
+434,please turn the lamp on,LIGHT_ON
+435,please LED on,LIGHT_ON
+436,hey power on the bedroom light,LIGHT_ON
+437,hey assistant turn on the LED,LIGHT_ON
+438,can you enable the kitchen light,LIGHT_ON
+439,hey assistant activate the bedroom light,LIGHT_ON
+440,could you power on the light,LIGHT_ON
+441,hey turn on the lamp,LIGHT_ON
+442,enable the LED,LIGHT_ON
+443,can you enable the light,LIGHT_ON
+444,can you turn on the light,LIGHT_ON
+445,switch on the LED,LIGHT_ON
+446,hey assistant turn on the LED,LIGHT_ON
+447,please turn on the LED,LIGHT_ON
+448,activate the bedroom light,LIGHT_ON
+449,can you switch on the kitchen light,LIGHT_ON
+450,power on the lamp,LIGHT_ON
+451,could you switch on the light,LIGHT_ON
+452,could you please turn the bedroom light on,LIGHT_ON
+453,can you enable the lamp,LIGHT_ON
+454,power on the lamp,LIGHT_ON
+455,can you LED on,LIGHT_ON
+456,hey assistant activate the light,LIGHT_ON
+457,hey LED on,LIGHT_ON
+458,power on the lamp,LIGHT_ON
+459,could you LED on,LIGHT_ON
+460,hey activate the bedroom light,LIGHT_ON
+461,hey assistant activate the bedroom light,LIGHT_ON
+462,can you activate the lamp,LIGHT_ON
+463,please turn the bedroom light on,LIGHT_ON
+464,could you switch on the bedroom light,LIGHT_ON
+465,please activate the kitchen light,LIGHT_ON
+466,enable the LED,LIGHT_ON
+467,please please turn the bedroom light on,LIGHT_ON
+468,hey assistant turn on the kitchen light,LIGHT_ON
+469,could you enable the light,LIGHT_ON
+470,hey assistant enable the bedroom light,LIGHT_ON
+471,could you activate the lamp,LIGHT_ON
+472,please turn the LED on,LIGHT_ON
+473,could you enable the lamp,LIGHT_ON
+474,hey activate the lamp,LIGHT_ON
+475,please turn on the light,LIGHT_ON
+476,please turn the bedroom light on,LIGHT_ON
+477,hey power on the LED,LIGHT_ON
+478,please switch on the light,LIGHT_ON
+479,activate the bedroom light,LIGHT_ON
+480,hey assistant switch on the lamp,LIGHT_ON
+481,could you power on the LED,LIGHT_ON
+482,hey assistant power on the LED,LIGHT_ON
+483,hey assistant switch on the LED,LIGHT_ON
+484,hey LED on,LIGHT_ON
+485,hey assistant please turn the LED on,LIGHT_ON
+486,turn on the bedroom light,LIGHT_ON
+487,hey assistant switch on the lamp,LIGHT_ON
+488,hey assistant enable the bedroom light,LIGHT_ON
+489,please please turn the kitchen light on,LIGHT_ON
+490,turn on the bedroom light,LIGHT_ON
+491,activate the kitchen light,LIGHT_ON
+492,hey LED on,LIGHT_ON
+493,could you enable the LED,LIGHT_ON
+494,LED on,LIGHT_ON
+495,can you enable the lamp,LIGHT_ON
+496,could you turn on the kitchen light,LIGHT_ON
+497,activate the kitchen light,LIGHT_ON
+498,hey enable the light,LIGHT_ON
+499,hey please turn the bedroom light on,LIGHT_ON
+500,disable the bedroom light,LIGHT_OFF
+501,switch off the light,LIGHT_OFF
+502,disable the bedroom light,LIGHT_OFF
+503,could you turn off the lamp,LIGHT_OFF
+504,can you switch off the bedroom light,LIGHT_OFF
+505,can you disable the kitchen light,LIGHT_OFF
+506,can you power off the lamp,LIGHT_OFF
+507,hey assistant please turn the light off,LIGHT_OFF
+508,can you kitchen light off,LIGHT_OFF
+509,hey disable the light,LIGHT_OFF
+510,can you disable the lamp,LIGHT_OFF
+511,hey assistant lamp off,LIGHT_OFF
+512,hey disable the light,LIGHT_OFF
+513,hey disable the kitchen light,LIGHT_OFF
+514,can you disable the light,LIGHT_OFF
+515,disable the lamp,LIGHT_OFF
+516,hey light off,LIGHT_OFF
+517,switch off the kitchen light,LIGHT_OFF
+518,turn off the LED,LIGHT_OFF
+519,switch off the kitchen light,LIGHT_OFF
+520,turn off the kitchen light,LIGHT_OFF
+521,hey assistant power off the lamp,LIGHT_OFF
+522,hey assistant switch off the LED,LIGHT_OFF
+523,switch off the kitchen light,LIGHT_OFF
+524,disable the lamp,LIGHT_OFF
+525,hey assistant power off the LED,LIGHT_OFF
+526,hey switch off the light,LIGHT_OFF
+527,turn off the lamp,LIGHT_OFF
+528,could you disable the lamp,LIGHT_OFF
+529,disable the light,LIGHT_OFF
+530,disable the light,LIGHT_OFF
+531,could you please turn the bedroom light off,LIGHT_OFF
+532,can you turn off the light,LIGHT_OFF
+533,could you LED off,LIGHT_OFF
+534,can you power off the light,LIGHT_OFF
+535,could you power off the lamp,LIGHT_OFF
+536,please turn off the kitchen light,LIGHT_OFF
+537,light off,LIGHT_OFF
+538,can you bedroom light off,LIGHT_OFF
+539,can you please turn the light off,LIGHT_OFF
+540,please turn the bedroom light off,LIGHT_OFF
+541,could you turn off the LED,LIGHT_OFF
+542,switch off the light,LIGHT_OFF
+543,hey disable the kitchen light,LIGHT_OFF
+544,hey power off the kitchen light,LIGHT_OFF
+545,could you disable the bedroom light,LIGHT_OFF
+546,can you power off the LED,LIGHT_OFF
+547,can you power off the kitchen light,LIGHT_OFF
+548,hey assistant turn off the light,LIGHT_OFF
+549,hey please turn the kitchen light off,LIGHT_OFF
+550,can you switch off the bedroom light,LIGHT_OFF
+551,please switch off the bedroom light,LIGHT_OFF
+552,can you bedroom light off,LIGHT_OFF
+553,please please turn the light off,LIGHT_OFF
+554,hey LED off,LIGHT_OFF
+555,disable the LED,LIGHT_OFF
+556,please turn the bedroom light off,LIGHT_OFF
+557,turn off the light,LIGHT_OFF
+558,hey light off,LIGHT_OFF
+559,hey assistant please turn the LED off,LIGHT_OFF
+560,switch off the kitchen light,LIGHT_OFF
+561,could you power off the kitchen light,LIGHT_OFF
+562,can you disable the light,LIGHT_OFF
+563,hey assistant disable the bedroom light,LIGHT_OFF
+564,please please turn the light off,LIGHT_OFF
+565,please power off the LED,LIGHT_OFF
+566,could you turn off the kitchen light,LIGHT_OFF
+567,hey switch off the lamp,LIGHT_OFF
+568,hey assistant lamp off,LIGHT_OFF
+569,hey assistant turn off the LED,LIGHT_OFF
+570,power off the LED,LIGHT_OFF
+571,disable the kitchen light,LIGHT_OFF
+572,hey assistant kitchen light off,LIGHT_OFF
+573,hey power off the kitchen light,LIGHT_OFF
+574,please turn the kitchen light off,LIGHT_OFF
+575,power off the LED,LIGHT_OFF
+576,hey switch off the LED,LIGHT_OFF
+577,please disable the LED,LIGHT_OFF
+578,hey assistant turn off the lamp,LIGHT_OFF
+579,hey switch off the kitchen light,LIGHT_OFF
+580,light off,LIGHT_OFF
+581,please turn the light off,LIGHT_OFF
+582,please turn the kitchen light off,LIGHT_OFF
+583,can you bedroom light off,LIGHT_OFF
+584,please disable the lamp,LIGHT_OFF
+585,hey assistant disable the LED,LIGHT_OFF
+586,power off the kitchen light,LIGHT_OFF
+587,turn off the lamp,LIGHT_OFF
+588,hey power off the light,LIGHT_OFF
+589,can you turn off the LED,LIGHT_OFF
+590,can you please turn the bedroom light off,LIGHT_OFF
+591,can you power off the bedroom light,LIGHT_OFF
+592,hey assistant disable the lamp,LIGHT_OFF
+593,please power off the light,LIGHT_OFF
+594,please light off,LIGHT_OFF
+595,can you please turn the kitchen light off,LIGHT_OFF
+596,power off the LED,LIGHT_OFF
+597,could you switch off the bedroom light,LIGHT_OFF
+598,turn off the light,LIGHT_OFF
+599,hey assistant disable the lamp,LIGHT_OFF
+600,please switch off the LED,LIGHT_OFF
+601,disable the light,LIGHT_OFF
+602,bedroom light off,LIGHT_OFF
+603,could you switch off the bedroom light,LIGHT_OFF
+604,could you please turn the lamp off,LIGHT_OFF
+605,power off the LED,LIGHT_OFF
+606,can you light off,LIGHT_OFF
+607,turn off the bedroom light,LIGHT_OFF
+608,can you disable the kitchen light,LIGHT_OFF
+609,hey power off the bedroom light,LIGHT_OFF
+610,please please turn the bedroom light off,LIGHT_OFF
+611,turn off the bedroom light,LIGHT_OFF
+612,hey assistant disable the lamp,LIGHT_OFF
+613,hey assistant power off the bedroom light,LIGHT_OFF
+614,please turn the LED off,LIGHT_OFF
+615,light off,LIGHT_OFF
+616,can you kitchen light off,LIGHT_OFF
+617,can you power off the light,LIGHT_OFF
+618,disable the LED,LIGHT_OFF
+619,disable the lamp,LIGHT_OFF
+620,could you power off the light,LIGHT_OFF
+621,hey assistant power off the lamp,LIGHT_OFF
+622,hey disable the LED,LIGHT_OFF
+623,please turn the lamp off,LIGHT_OFF
+624,please turn off the lamp,LIGHT_OFF
+625,could you switch off the lamp,LIGHT_OFF
+626,switch off the light,LIGHT_OFF
+627,can you please turn the bedroom light off,LIGHT_OFF
+628,can you power off the kitchen light,LIGHT_OFF
+629,hey please turn the kitchen light off,LIGHT_OFF
+630,please please turn the kitchen light off,LIGHT_OFF
+631,please turn the LED off,LIGHT_OFF
+632,can you light off,LIGHT_OFF
+633,hey assistant LED off,LIGHT_OFF
+634,disable the kitchen light,LIGHT_OFF
+635,disable the kitchen light,LIGHT_OFF
+636,can you disable the bedroom light,LIGHT_OFF
+637,please turn off the light,LIGHT_OFF
+638,hey disable the light,LIGHT_OFF
+639,could you turn off the kitchen light,LIGHT_OFF
+640,can you power off the bedroom light,LIGHT_OFF
+641,hey assistant power off the kitchen light,LIGHT_OFF
+642,can you please turn the light off,LIGHT_OFF
+643,please power off the lamp,LIGHT_OFF
+644,could you power off the bedroom light,LIGHT_OFF
+645,can you switch off the light,LIGHT_OFF
+646,hey turn off the LED,LIGHT_OFF
+647,hey turn off the kitchen light,LIGHT_OFF
+648,switch off the light,LIGHT_OFF
+649,can you please turn the bedroom light off,LIGHT_OFF
+650,could you power off the kitchen light,LIGHT_OFF
+651,please switch off the LED,LIGHT_OFF
+652,can you disable the bedroom light,LIGHT_OFF
+653,disable the kitchen light,LIGHT_OFF
+654,please turn the LED off,LIGHT_OFF
+655,could you disable the light,LIGHT_OFF
+656,please please turn the bedroom light off,LIGHT_OFF
+657,hey assistant disable the kitchen light,LIGHT_OFF
+658,switch off the LED,LIGHT_OFF
+659,please power off the lamp,LIGHT_OFF
+660,disable the bedroom light,LIGHT_OFF
+661,please power off the light,LIGHT_OFF
+662,hey power off the bedroom light,LIGHT_OFF
+663,hey disable the lamp,LIGHT_OFF
+664,please turn the kitchen light off,LIGHT_OFF
+665,could you please turn the bedroom light off,LIGHT_OFF
+666,please disable the light,LIGHT_OFF
+667,disable the lamp,LIGHT_OFF
+668,disable the bedroom light,LIGHT_OFF
+669,switch off the lamp,LIGHT_OFF
+670,hey assistant turn off the LED,LIGHT_OFF
+671,hey assistant turn off the kitchen light,LIGHT_OFF
+672,power off the kitchen light,LIGHT_OFF
+673,hey assistant please turn the LED off,LIGHT_OFF
+674,could you power off the lamp,LIGHT_OFF
+675,lamp off,LIGHT_OFF
+676,hey assistant switch off the kitchen light,LIGHT_OFF
+677,switch off the bedroom light,LIGHT_OFF
+678,hey LED off,LIGHT_OFF
+679,can you please turn the lamp off,LIGHT_OFF
+680,hey assistant power off the LED,LIGHT_OFF
+681,please turn the bedroom light off,LIGHT_OFF
+682,please power off the lamp,LIGHT_OFF
+683,please lamp off,LIGHT_OFF
+684,can you please turn the kitchen light off,LIGHT_OFF
+685,hey assistant LED off,LIGHT_OFF
+686,could you kitchen light off,LIGHT_OFF
+687,hey assistant lamp off,LIGHT_OFF
+688,switch off the kitchen light,LIGHT_OFF
+689,hey disable the light,LIGHT_OFF
+690,could you LED off,LIGHT_OFF
+691,hey assistant turn off the kitchen light,LIGHT_OFF
+692,turn off the LED,LIGHT_OFF
+693,can you switch off the LED,LIGHT_OFF
+694,hey assistant power off the lamp,LIGHT_OFF
+695,light off,LIGHT_OFF
+696,LED off,LIGHT_OFF
+697,can you light off,LIGHT_OFF
+698,power off the LED,LIGHT_OFF
+699,please light off,LIGHT_OFF
+700,please switch off the light,LIGHT_OFF
+701,hey assistant turn off the LED,LIGHT_OFF
+702,switch off the lamp,LIGHT_OFF
+703,hey disable the bedroom light,LIGHT_OFF
+704,can you switch off the bedroom light,LIGHT_OFF
+705,power off the light,LIGHT_OFF
+706,turn off the LED,LIGHT_OFF
+707,hey switch off the kitchen light,LIGHT_OFF
+708,can you power off the kitchen light,LIGHT_OFF
+709,turn off the LED,LIGHT_OFF
+710,disable the light,LIGHT_OFF
+711,hey switch off the bedroom light,LIGHT_OFF
+712,power off the bedroom light,LIGHT_OFF
+713,could you turn off the bedroom light,LIGHT_OFF
+714,hey power off the light,LIGHT_OFF
+715,power off the kitchen light,LIGHT_OFF
+716,please please turn the lamp off,LIGHT_OFF
+717,could you light off,LIGHT_OFF
+718,could you disable the lamp,LIGHT_OFF
+719,hey lamp off,LIGHT_OFF
+720,could you please turn the light off,LIGHT_OFF
+721,could you disable the light,LIGHT_OFF
+722,hey assistant power off the kitchen light,LIGHT_OFF
+723,power off the kitchen light,LIGHT_OFF
+724,bedroom light off,LIGHT_OFF
+725,please please turn the bedroom light off,LIGHT_OFF
+726,please disable the light,LIGHT_OFF
+727,turn off the LED,LIGHT_OFF
+728,hey assistant please turn the light off,LIGHT_OFF
+729,power off the LED,LIGHT_OFF
+730,could you turn off the LED,LIGHT_OFF
+731,hey assistant disable the lamp,LIGHT_OFF
+732,hey please turn the bedroom light off,LIGHT_OFF
+733,hey assistant lamp off,LIGHT_OFF
+734,hey switch off the light,LIGHT_OFF
+735,please light off,LIGHT_OFF
+736,hey assistant switch off the light,LIGHT_OFF
+737,please switch off the light,LIGHT_OFF
+738,can you disable the kitchen light,LIGHT_OFF
+739,please power off the bedroom light,LIGHT_OFF
+740,please turn off the lamp,LIGHT_OFF
+741,hey assistant disable the light,LIGHT_OFF
+742,please please turn the LED off,LIGHT_OFF
+743,can you turn off the LED,LIGHT_OFF
+744,can you bedroom light off,LIGHT_OFF
+745,can you disable the lamp,LIGHT_OFF
+746,please please turn the bedroom light off,LIGHT_OFF
+747,hey assistant power off the LED,LIGHT_OFF
+748,turn off the bedroom light,LIGHT_OFF
+749,hey assistant kitchen light off,LIGHT_OFF
+750,please switch off the kitchen light,LIGHT_OFF
+751,disable the light,LIGHT_OFF
+752,please disable the LED,LIGHT_OFF
+753,hey kitchen light off,LIGHT_OFF
+754,hey lamp off,LIGHT_OFF
+755,can you LED off,LIGHT_OFF
+756,could you turn off the LED,LIGHT_OFF
+757,hey LED off,LIGHT_OFF
+758,hey turn off the light,LIGHT_OFF
+759,please please turn the bedroom light off,LIGHT_OFF
+760,power off the lamp,LIGHT_OFF
+761,hey switch off the kitchen light,LIGHT_OFF
+762,light off,LIGHT_OFF
+763,hey assistant turn off the lamp,LIGHT_OFF
+764,please please turn the LED off,LIGHT_OFF
+765,kitchen light off,LIGHT_OFF
+766,hey power off the lamp,LIGHT_OFF
+767,please LED off,LIGHT_OFF
+768,could you light off,LIGHT_OFF
+769,please switch off the kitchen light,LIGHT_OFF
+770,hey LED off,LIGHT_OFF
+771,disable the lamp,LIGHT_OFF
+772,can you turn off the lamp,LIGHT_OFF
+773,could you power off the bedroom light,LIGHT_OFF
+774,hey assistant turn off the LED,LIGHT_OFF
+775,disable the bedroom light,LIGHT_OFF
+776,hey power off the LED,LIGHT_OFF
+777,lamp off,LIGHT_OFF
+778,can you switch off the light,LIGHT_OFF
+779,switch off the bedroom light,LIGHT_OFF
+780,hey please turn the LED off,LIGHT_OFF
+781,could you disable the light,LIGHT_OFF
+782,please power off the LED,LIGHT_OFF
+783,hey assistant switch off the lamp,LIGHT_OFF
+784,disable the kitchen light,LIGHT_OFF
+785,hey assistant turn off the lamp,LIGHT_OFF
+786,hey assistant switch off the lamp,LIGHT_OFF
+787,please light off,LIGHT_OFF
+788,please power off the kitchen light,LIGHT_OFF
+789,kitchen light off,LIGHT_OFF
+790,power off the light,LIGHT_OFF
+791,hey disable the bedroom light,LIGHT_OFF
+792,could you please turn the bedroom light off,LIGHT_OFF
+793,hey assistant bedroom light off,LIGHT_OFF
+794,power off the light,LIGHT_OFF
+795,can you disable the light,LIGHT_OFF
+796,please kitchen light off,LIGHT_OFF
+797,hey switch off the kitchen light,LIGHT_OFF
+798,hey assistant power off the lamp,LIGHT_OFF
+799,could you switch off the bedroom light,LIGHT_OFF
+800,could you turn off the light,LIGHT_OFF
+801,switch off the LED,LIGHT_OFF
+802,hey switch off the LED,LIGHT_OFF
+803,could you switch off the LED,LIGHT_OFF
+804,please disable the light,LIGHT_OFF
+805,please switch off the kitchen light,LIGHT_OFF
+806,could you switch off the LED,LIGHT_OFF
+807,could you power off the light,LIGHT_OFF
+808,could you please turn the lamp off,LIGHT_OFF
+809,power off the lamp,LIGHT_OFF
+810,hey please turn the kitchen light off,LIGHT_OFF
+811,hey assistant power off the LED,LIGHT_OFF
+812,hey assistant power off the light,LIGHT_OFF
+813,turn off the light,LIGHT_OFF
+814,please please turn the kitchen light off,LIGHT_OFF
+815,hey assistant please turn the lamp off,LIGHT_OFF
+816,could you power off the bedroom light,LIGHT_OFF
+817,can you please turn the light off,LIGHT_OFF
+818,please please turn the kitchen light off,LIGHT_OFF
+819,can you please turn the LED off,LIGHT_OFF
+820,please switch off the bedroom light,LIGHT_OFF
+821,hey light off,LIGHT_OFF
+822,can you turn off the lamp,LIGHT_OFF
+823,can you bedroom light off,LIGHT_OFF
+824,could you switch off the LED,LIGHT_OFF
+825,hey assistant switch off the LED,LIGHT_OFF
+826,hey please turn the LED off,LIGHT_OFF
+827,disable the bedroom light,LIGHT_OFF
+828,could you disable the kitchen light,LIGHT_OFF
+829,turn off the LED,LIGHT_OFF
+830,please light off,LIGHT_OFF
+831,lamp off,LIGHT_OFF
+832,please turn off the light,LIGHT_OFF
+833,can you kitchen light off,LIGHT_OFF
+834,hey assistant switch off the lamp,LIGHT_OFF
+835,hey disable the kitchen light,LIGHT_OFF
+836,hey assistant disable the lamp,LIGHT_OFF
+837,could you switch off the bedroom light,LIGHT_OFF
+838,please bedroom light off,LIGHT_OFF
+839,light off,LIGHT_OFF
+840,can you kitchen light off,LIGHT_OFF
+841,could you switch off the lamp,LIGHT_OFF
+842,disable the light,LIGHT_OFF
+843,could you disable the bedroom light,LIGHT_OFF
+844,please please turn the bedroom light off,LIGHT_OFF
+845,hey assistant power off the light,LIGHT_OFF
+846,turn off the bedroom light,LIGHT_OFF
+847,hey assistant disable the LED,LIGHT_OFF
+848,LED off,LIGHT_OFF
+849,could you light off,LIGHT_OFF
+850,please power off the lamp,LIGHT_OFF
+851,power off the LED,LIGHT_OFF
+852,can you kitchen light off,LIGHT_OFF
+853,hey assistant power off the LED,LIGHT_OFF
+854,power off the kitchen light,LIGHT_OFF
+855,can you switch off the light,LIGHT_OFF
+856,could you disable the LED,LIGHT_OFF
+857,disable the lamp,LIGHT_OFF
+858,can you power off the kitchen light,LIGHT_OFF
+859,power off the light,LIGHT_OFF
+860,hey turn off the lamp,LIGHT_OFF
+861,could you disable the bedroom light,LIGHT_OFF
+862,could you lamp off,LIGHT_OFF
+863,please power off the lamp,LIGHT_OFF
+864,power off the LED,LIGHT_OFF
+865,hey kitchen light off,LIGHT_OFF
+866,please disable the kitchen light,LIGHT_OFF
+867,could you power off the kitchen light,LIGHT_OFF
+868,please kitchen light off,LIGHT_OFF
+869,please light off,LIGHT_OFF
+870,can you disable the light,LIGHT_OFF
+871,hey assistant power off the LED,LIGHT_OFF
+872,could you please turn the light off,LIGHT_OFF
+873,hey LED off,LIGHT_OFF
+874,power off the kitchen light,LIGHT_OFF
+875,could you please turn the light off,LIGHT_OFF
+876,could you lamp off,LIGHT_OFF
+877,hey assistant please turn the kitchen light off,LIGHT_OFF
+878,hey assistant lamp off,LIGHT_OFF
+879,please turn the lamp off,LIGHT_OFF
+880,power off the light,LIGHT_OFF
+881,please turn off the bedroom light,LIGHT_OFF
+882,can you lamp off,LIGHT_OFF
+883,can you please turn the lamp off,LIGHT_OFF
+884,can you power off the kitchen light,LIGHT_OFF
+885,hey please turn the light off,LIGHT_OFF
+886,switch off the kitchen light,LIGHT_OFF
+887,hey power off the LED,LIGHT_OFF
+888,can you kitchen light off,LIGHT_OFF
+889,can you disable the lamp,LIGHT_OFF
+890,could you power off the LED,LIGHT_OFF
+891,could you disable the LED,LIGHT_OFF
+892,lamp off,LIGHT_OFF
+893,please disable the kitchen light,LIGHT_OFF
+894,hey assistant switch off the LED,LIGHT_OFF
+895,hey disable the lamp,LIGHT_OFF
+896,please please turn the bedroom light off,LIGHT_OFF
+897,could you LED off,LIGHT_OFF
+898,please please turn the LED off,LIGHT_OFF
+899,hey turn off the kitchen light,LIGHT_OFF
+900,can you power off the bedroom light,LIGHT_OFF
+901,please disable the lamp,LIGHT_OFF
+902,hey turn off the LED,LIGHT_OFF
+903,can you turn off the LED,LIGHT_OFF
+904,hey please turn the LED off,LIGHT_OFF
+905,lamp off,LIGHT_OFF
+906,could you power off the LED,LIGHT_OFF
+907,please turn the LED off,LIGHT_OFF
+908,hey turn off the kitchen light,LIGHT_OFF
+909,power off the lamp,LIGHT_OFF
+910,turn off the kitchen light,LIGHT_OFF
+911,please turn the lamp off,LIGHT_OFF
+912,please turn off the bedroom light,LIGHT_OFF
+913,please turn the bedroom light off,LIGHT_OFF
+914,please turn the lamp off,LIGHT_OFF
+915,can you power off the lamp,LIGHT_OFF
+916,can you please turn the bedroom light off,LIGHT_OFF
+917,hey assistant please turn the lamp off,LIGHT_OFF
+918,please disable the LED,LIGHT_OFF
+919,hey assistant please turn the light off,LIGHT_OFF
+920,turn off the kitchen light,LIGHT_OFF
+921,power off the light,LIGHT_OFF
+922,lamp off,LIGHT_OFF
+923,bedroom light off,LIGHT_OFF
+924,please turn the LED off,LIGHT_OFF
+925,could you turn off the LED,LIGHT_OFF
+926,please power off the light,LIGHT_OFF
+927,hey disable the bedroom light,LIGHT_OFF
+928,can you power off the kitchen light,LIGHT_OFF
+929,can you switch off the kitchen light,LIGHT_OFF
+930,hey assistant disable the lamp,LIGHT_OFF
+931,turn off the LED,LIGHT_OFF
+932,hey please turn the bedroom light off,LIGHT_OFF
+933,disable the lamp,LIGHT_OFF
+934,hey assistant please turn the LED off,LIGHT_OFF
+935,hey disable the kitchen light,LIGHT_OFF
+936,could you switch off the lamp,LIGHT_OFF
+937,hey assistant please turn the bedroom light off,LIGHT_OFF
+938,please kitchen light off,LIGHT_OFF
+939,hey turn off the bedroom light,LIGHT_OFF
+940,turn off the lamp,LIGHT_OFF
+941,LED off,LIGHT_OFF
+942,can you turn off the LED,LIGHT_OFF
+943,hey assistant switch off the bedroom light,LIGHT_OFF
+944,please disable the LED,LIGHT_OFF
+945,power off the kitchen light,LIGHT_OFF
+946,hey disable the LED,LIGHT_OFF
+947,hey switch off the light,LIGHT_OFF
+948,please turn off the bedroom light,LIGHT_OFF
+949,hey switch off the bedroom light,LIGHT_OFF
+950,hey power off the LED,LIGHT_OFF
+951,please turn off the LED,LIGHT_OFF
+952,power off the lamp,LIGHT_OFF
+953,switch off the bedroom light,LIGHT_OFF
+954,please kitchen light off,LIGHT_OFF
+955,can you kitchen light off,LIGHT_OFF
+956,hey assistant power off the lamp,LIGHT_OFF
+957,hey assistant switch off the kitchen light,LIGHT_OFF
+958,can you turn off the kitchen light,LIGHT_OFF
+959,power off the LED,LIGHT_OFF
+960,power off the light,LIGHT_OFF
+961,power off the kitchen light,LIGHT_OFF
+962,power off the kitchen light,LIGHT_OFF
+963,hey assistant switch off the LED,LIGHT_OFF
+964,power off the bedroom light,LIGHT_OFF
+965,hey please turn the lamp off,LIGHT_OFF
+966,power off the bedroom light,LIGHT_OFF
+967,hey assistant power off the bedroom light,LIGHT_OFF
+968,turn off the bedroom light,LIGHT_OFF
+969,can you power off the bedroom light,LIGHT_OFF
+970,could you power off the light,LIGHT_OFF
+971,hey LED off,LIGHT_OFF
+972,please turn off the bedroom light,LIGHT_OFF
+973,could you turn off the lamp,LIGHT_OFF
+974,can you turn off the light,LIGHT_OFF
+975,could you disable the light,LIGHT_OFF
+976,can you turn off the light,LIGHT_OFF
+977,can you turn off the LED,LIGHT_OFF
+978,hey assistant switch off the lamp,LIGHT_OFF
+979,please please turn the bedroom light off,LIGHT_OFF
+980,hey assistant bedroom light off,LIGHT_OFF
+981,bedroom light off,LIGHT_OFF
+982,please turn the kitchen light off,LIGHT_OFF
+983,please turn the LED off,LIGHT_OFF
+984,can you switch off the kitchen light,LIGHT_OFF
+985,hey power off the lamp,LIGHT_OFF
+986,hey assistant switch off the light,LIGHT_OFF
+987,can you turn off the LED,LIGHT_OFF
+988,can you please turn the kitchen light off,LIGHT_OFF
+989,hey assistant power off the bedroom light,LIGHT_OFF
+990,can you switch off the lamp,LIGHT_OFF
+991,please disable the lamp,LIGHT_OFF
+992,switch off the light,LIGHT_OFF
+993,could you please turn the bedroom light off,LIGHT_OFF
+994,turn off the lamp,LIGHT_OFF
+995,could you turn off the light,LIGHT_OFF
+996,could you turn off the bedroom light,LIGHT_OFF
+997,please turn the light off,LIGHT_OFF
+998,can you please turn the light off,LIGHT_OFF
+999,could you lamp off,LIGHT_OFF
+1000,hey assistant hi,UNKNOWN
+1001,hey assistant open the door,UNKNOWN
+1002,hello,UNKNOWN
+1003,please what is the weather,UNKNOWN
+1004,hey assistant hi,UNKNOWN
+1005,could you play music,UNKNOWN
+1006,could you tell me a joke,UNKNOWN
+1007,hey assistant what is the weather,UNKNOWN
+1008,hey assistant play music,UNKNOWN
+1009,tell me a joke,UNKNOWN
+1010,tell me a joke,UNKNOWN
+1011,could you play music,UNKNOWN
+1012,can you hi,UNKNOWN
+1013,please tell me a joke,UNKNOWN
+1014,could you hello,UNKNOWN
+1015,hey what is the weather,UNKNOWN
+1016,hey hi,UNKNOWN
+1017,can you play music,UNKNOWN
+1018,can you what is the weather,UNKNOWN
+1019,please hello,UNKNOWN
+1020,hey play music,UNKNOWN
+1021,hey assistant what time is it,UNKNOWN
+1022,please what is the weather,UNKNOWN
+1023,can you play music,UNKNOWN
+1024,what time is it,UNKNOWN
+1025,can you tell me a joke,UNKNOWN
+1026,hey assistant hi,UNKNOWN
+1027,can you what is the weather,UNKNOWN
+1028,hey assistant hi,UNKNOWN
+1029,please hi,UNKNOWN
+1030,hey open the door,UNKNOWN
+1031,hey assistant hi,UNKNOWN
+1032,what time is it,UNKNOWN
+1033,can you what is the weather,UNKNOWN
+1034,could you what time is it,UNKNOWN
+1035,what is the weather,UNKNOWN
+1036,what time is it,UNKNOWN
+1037,tell me a joke,UNKNOWN
+1038,hey tell me a joke,UNKNOWN
+1039,can you hello,UNKNOWN
+1040,please open the door,UNKNOWN
+1041,could you hello,UNKNOWN
+1042,hey assistant play music,UNKNOWN
+1043,hi,UNKNOWN
+1044,can you tell me a joke,UNKNOWN
+1045,could you play music,UNKNOWN
+1046,what is the weather,UNKNOWN
+1047,open the door,UNKNOWN
+1048,hey assistant hi,UNKNOWN
+1049,could you open the door,UNKNOWN
+1050,hey play music,UNKNOWN
+1051,what is the weather,UNKNOWN
+1052,what time is it,UNKNOWN
+1053,please open the door,UNKNOWN
+1054,tell me a joke,UNKNOWN
+1055,hi,UNKNOWN
+1056,play music,UNKNOWN
+1057,hey assistant play music,UNKNOWN
+1058,what time is it,UNKNOWN
+1059,could you play music,UNKNOWN
+1060,play music,UNKNOWN
+1061,what time is it,UNKNOWN
+1062,please what is the weather,UNKNOWN
+1063,please open the door,UNKNOWN
+1064,can you what time is it,UNKNOWN
+1065,hey what is the weather,UNKNOWN
+1066,please tell me a joke,UNKNOWN
+1067,please tell me a joke,UNKNOWN
+1068,can you what is the weather,UNKNOWN
+1069,what time is it,UNKNOWN
+1070,hey open the door,UNKNOWN
+1071,hey assistant what time is it,UNKNOWN
+1072,please open the door,UNKNOWN
+1073,please hi,UNKNOWN
+1074,can you tell me a joke,UNKNOWN
+1075,could you hello,UNKNOWN
+1076,open the door,UNKNOWN
+1077,play music,UNKNOWN
+1078,please hello,UNKNOWN
+1079,could you what is the weather,UNKNOWN
+1080,hey what is the weather,UNKNOWN
+1081,please what time is it,UNKNOWN
+1082,hi,UNKNOWN
+1083,tell me a joke,UNKNOWN
+1084,could you what time is it,UNKNOWN
+1085,open the door,UNKNOWN
+1086,could you what time is it,UNKNOWN
+1087,hey play music,UNKNOWN
+1088,please tell me a joke,UNKNOWN
+1089,hey assistant open the door,UNKNOWN
+1090,hey what time is it,UNKNOWN
+1091,hey play music,UNKNOWN
+1092,can you what time is it,UNKNOWN
+1093,hey hi,UNKNOWN
+1094,please open the door,UNKNOWN
+1095,hi,UNKNOWN
+1096,could you play music,UNKNOWN
+1097,what time is it,UNKNOWN
+1098,hey what is the weather,UNKNOWN
+1099,could you hello,UNKNOWN
+1100,hey assistant hello,UNKNOWN
+1101,open the door,UNKNOWN
+1102,hey open the door,UNKNOWN
+1103,hey assistant hello,UNKNOWN
+1104,can you hello,UNKNOWN
+1105,hey assistant hi,UNKNOWN
+1106,play music,UNKNOWN
+1107,hey hello,UNKNOWN
+1108,hi,UNKNOWN
+1109,could you hi,UNKNOWN
+1110,please what time is it,UNKNOWN
+1111,could you hello,UNKNOWN
+1112,hey play music,UNKNOWN
+1113,can you what is the weather,UNKNOWN
+1114,can you play music,UNKNOWN
+1115,hello,UNKNOWN
+1116,could you what is the weather,UNKNOWN
+1117,what time is it,UNKNOWN
+1118,could you hello,UNKNOWN
+1119,please play music,UNKNOWN
+1120,please what is the weather,UNKNOWN
+1121,could you hello,UNKNOWN
+1122,hey open the door,UNKNOWN
+1123,can you play music,UNKNOWN
+1124,open the door,UNKNOWN
+1125,hello,UNKNOWN
+1126,what is the weather,UNKNOWN
+1127,hi,UNKNOWN
+1128,could you what is the weather,UNKNOWN
+1129,hey assistant tell me a joke,UNKNOWN
+1130,please tell me a joke,UNKNOWN
+1131,can you open the door,UNKNOWN
+1132,please hello,UNKNOWN
+1133,can you what time is it,UNKNOWN
+1134,what is the weather,UNKNOWN
+1135,play music,UNKNOWN
+1136,hey tell me a joke,UNKNOWN
+1137,hey assistant open the door,UNKNOWN
+1138,hey hello,UNKNOWN
+1139,hey open the door,UNKNOWN
+1140,open the door,UNKNOWN
+1141,can you hello,UNKNOWN
+1142,can you what time is it,UNKNOWN
+1143,can you what is the weather,UNKNOWN
+1144,hey hello,UNKNOWN
+1145,hey hello,UNKNOWN
+1146,hi,UNKNOWN
+1147,hey assistant what time is it,UNKNOWN
+1148,hey what time is it,UNKNOWN
+1149,please open the door,UNKNOWN
+1150,hey assistant what is the weather,UNKNOWN
+1151,could you hello,UNKNOWN
+1152,hello,UNKNOWN
+1153,hey assistant hi,UNKNOWN
+1154,could you play music,UNKNOWN
+1155,please what time is it,UNKNOWN
+1156,hello,UNKNOWN
+1157,please play music,UNKNOWN
+1158,could you what is the weather,UNKNOWN
+1159,play music,UNKNOWN
+1160,hey assistant hi,UNKNOWN
+1161,tell me a joke,UNKNOWN
+1162,could you hi,UNKNOWN
+1163,hey assistant hi,UNKNOWN
+1164,hey open the door,UNKNOWN
+1165,can you open the door,UNKNOWN
+1166,please hello,UNKNOWN
+1167,could you hi,UNKNOWN
+1168,could you hi,UNKNOWN
+1169,hey assistant open the door,UNKNOWN
+1170,hey what time is it,UNKNOWN
+1171,please what is the weather,UNKNOWN
+1172,hey assistant what time is it,UNKNOWN
+1173,play music,UNKNOWN
+1174,hey open the door,UNKNOWN
+1175,play music,UNKNOWN
+1176,hey what is the weather,UNKNOWN
+1177,tell me a joke,UNKNOWN
+1178,can you hello,UNKNOWN
+1179,hey assistant hi,UNKNOWN
+1180,please hello,UNKNOWN
+1181,hey assistant what is the weather,UNKNOWN
+1182,could you what is the weather,UNKNOWN
+1183,hey assistant what time is it,UNKNOWN
+1184,tell me a joke,UNKNOWN
+1185,please play music,UNKNOWN
+1186,can you open the door,UNKNOWN
+1187,what time is it,UNKNOWN
+1188,could you tell me a joke,UNKNOWN
+1189,can you what time is it,UNKNOWN
+1190,hey hi,UNKNOWN
+1191,hey what is the weather,UNKNOWN
+1192,what time is it,UNKNOWN
+1193,could you open the door,UNKNOWN
+1194,hey assistant tell me a joke,UNKNOWN
+1195,hey hi,UNKNOWN
+1196,hello,UNKNOWN
+1197,tell me a joke,UNKNOWN
+1198,hey what time is it,UNKNOWN
+1199,hey open the door,UNKNOWN
+1200,hey hi,UNKNOWN
+1201,please what time is it,UNKNOWN
+1202,tell me a joke,UNKNOWN
+1203,hello,UNKNOWN
+1204,can you tell me a joke,UNKNOWN
+1205,hey assistant tell me a joke,UNKNOWN
+1206,tell me a joke,UNKNOWN
+1207,hi,UNKNOWN
+1208,can you hi,UNKNOWN
+1209,could you what time is it,UNKNOWN
+1210,could you what is the weather,UNKNOWN
+1211,what time is it,UNKNOWN
+1212,hello,UNKNOWN
+1213,could you tell me a joke,UNKNOWN
+1214,could you hello,UNKNOWN
+1215,hey assistant what is the weather,UNKNOWN
+1216,hey assistant tell me a joke,UNKNOWN
+1217,what time is it,UNKNOWN
+1218,can you tell me a joke,UNKNOWN
+1219,hey assistant what time is it,UNKNOWN
+1220,hey hello,UNKNOWN
+1221,what is the weather,UNKNOWN
+1222,could you what is the weather,UNKNOWN
+1223,hey hi,UNKNOWN
+1224,what time is it,UNKNOWN
+1225,please hi,UNKNOWN
+1226,please tell me a joke,UNKNOWN
+1227,what time is it,UNKNOWN
+1228,hello,UNKNOWN
+1229,please what time is it,UNKNOWN
+1230,please what time is it,UNKNOWN
+1231,hey assistant what time is it,UNKNOWN
+1232,please hello,UNKNOWN
+1233,tell me a joke,UNKNOWN
+1234,hey play music,UNKNOWN
+1235,could you what time is it,UNKNOWN
+1236,what is the weather,UNKNOWN
+1237,what time is it,UNKNOWN
+1238,please hi,UNKNOWN
+1239,can you hello,UNKNOWN
+1240,hey assistant tell me a joke,UNKNOWN
+1241,can you what is the weather,UNKNOWN
+1242,hey assistant open the door,UNKNOWN
+1243,can you tell me a joke,UNKNOWN
+1244,can you tell me a joke,UNKNOWN
+1245,hey assistant open the door,UNKNOWN
+1246,hey open the door,UNKNOWN
+1247,what is the weather,UNKNOWN
+1248,please tell me a joke,UNKNOWN
+1249,hey what is the weather,UNKNOWN
+1250,can you hi,UNKNOWN
+1251,tell me a joke,UNKNOWN
+1252,please what time is it,UNKNOWN
+1253,hey tell me a joke,UNKNOWN
+1254,hey play music,UNKNOWN
+1255,could you what time is it,UNKNOWN
+1256,open the door,UNKNOWN
+1257,can you tell me a joke,UNKNOWN
+1258,hey assistant tell me a joke,UNKNOWN
+1259,can you open the door,UNKNOWN
+1260,tell me a joke,UNKNOWN
+1261,what is the weather,UNKNOWN
+1262,could you what is the weather,UNKNOWN
+1263,hey hi,UNKNOWN
+1264,could you open the door,UNKNOWN
+1265,hey hello,UNKNOWN
+1266,hey what time is it,UNKNOWN
+1267,can you hi,UNKNOWN
+1268,please open the door,UNKNOWN
+1269,hey open the door,UNKNOWN
+1270,hey assistant hello,UNKNOWN
+1271,hey assistant open the door,UNKNOWN
+1272,can you open the door,UNKNOWN
+1273,can you play music,UNKNOWN
+1274,hey hi,UNKNOWN
+1275,tell me a joke,UNKNOWN
+1276,hey tell me a joke,UNKNOWN
+1277,hey hi,UNKNOWN
+1278,hey assistant what time is it,UNKNOWN
+1279,what time is it,UNKNOWN
+1280,could you what time is it,UNKNOWN
+1281,could you what time is it,UNKNOWN
+1282,could you what time is it,UNKNOWN
+1283,hey assistant what is the weather,UNKNOWN
+1284,can you play music,UNKNOWN
+1285,what is the weather,UNKNOWN
+1286,please open the door,UNKNOWN
+1287,hey assistant play music,UNKNOWN
+1288,could you what is the weather,UNKNOWN
+1289,play music,UNKNOWN
+1290,hey assistant hello,UNKNOWN
+1291,hey hi,UNKNOWN
+1292,please play music,UNKNOWN
+1293,hey hi,UNKNOWN
+1294,what is the weather,UNKNOWN
+1295,hey what is the weather,UNKNOWN
+1296,hey play music,UNKNOWN
+1297,hey assistant what time is it,UNKNOWN
+1298,hey assistant tell me a joke,UNKNOWN
+1299,what time is it,UNKNOWN
+1300,hello,UNKNOWN
+1301,tell me a joke,UNKNOWN
+1302,hey what is the weather,UNKNOWN
+1303,could you what is the weather,UNKNOWN
+1304,hey what is the weather,UNKNOWN
+1305,what is the weather,UNKNOWN
+1306,please what time is it,UNKNOWN
+1307,can you what time is it,UNKNOWN
+1308,hey open the door,UNKNOWN
+1309,hey what is the weather,UNKNOWN
+1310,what is the weather,UNKNOWN
+1311,tell me a joke,UNKNOWN
+1312,what time is it,UNKNOWN
+1313,can you tell me a joke,UNKNOWN
+1314,hello,UNKNOWN
+1315,hey open the door,UNKNOWN
+1316,please hi,UNKNOWN
+1317,please tell me a joke,UNKNOWN
+1318,hey assistant what time is it,UNKNOWN
+1319,could you hi,UNKNOWN
+1320,please what time is it,UNKNOWN
+1321,what time is it,UNKNOWN
+1322,hey what time is it,UNKNOWN
+1323,can you play music,UNKNOWN
+1324,tell me a joke,UNKNOWN
+1325,tell me a joke,UNKNOWN
+1326,hey open the door,UNKNOWN
+1327,hello,UNKNOWN
+1328,please open the door,UNKNOWN
+1329,play music,UNKNOWN
+1330,hey assistant play music,UNKNOWN
+1331,hey hi,UNKNOWN
+1332,could you hi,UNKNOWN
+1333,could you hi,UNKNOWN
+1334,please hi,UNKNOWN
+1335,can you what is the weather,UNKNOWN
+1336,what time is it,UNKNOWN
+1337,can you open the door,UNKNOWN
+1338,play music,UNKNOWN
+1339,hey hi,UNKNOWN
+1340,can you play music,UNKNOWN
+1341,what time is it,UNKNOWN
+1342,could you play music,UNKNOWN
+1343,can you hi,UNKNOWN
+1344,can you what is the weather,UNKNOWN
+1345,what time is it,UNKNOWN
+1346,play music,UNKNOWN
+1347,please hi,UNKNOWN
+1348,hey open the door,UNKNOWN
+1349,hey assistant open the door,UNKNOWN
+1350,could you hello,UNKNOWN
+1351,hey assistant hello,UNKNOWN
+1352,could you open the door,UNKNOWN
+1353,please hi,UNKNOWN
+1354,tell me a joke,UNKNOWN
+1355,what time is it,UNKNOWN
+1356,hey tell me a joke,UNKNOWN
+1357,can you open the door,UNKNOWN
+1358,hey what is the weather,UNKNOWN
+1359,could you tell me a joke,UNKNOWN
+1360,could you what time is it,UNKNOWN
+1361,could you what time is it,UNKNOWN
+1362,please hello,UNKNOWN
+1363,hey assistant tell me a joke,UNKNOWN
+1364,could you what time is it,UNKNOWN
+1365,hey assistant hi,UNKNOWN
+1366,hey play music,UNKNOWN
+1367,please open the door,UNKNOWN
+1368,could you what is the weather,UNKNOWN
+1369,hey hello,UNKNOWN
+1370,please hi,UNKNOWN
+1371,hello,UNKNOWN
+1372,tell me a joke,UNKNOWN
+1373,please hi,UNKNOWN
+1374,play music,UNKNOWN
+1375,can you what is the weather,UNKNOWN
+1376,could you what time is it,UNKNOWN
+1377,could you hi,UNKNOWN
+1378,can you what time is it,UNKNOWN
+1379,can you hi,UNKNOWN
+1380,could you play music,UNKNOWN
+1381,hey play music,UNKNOWN
+1382,could you hi,UNKNOWN
+1383,can you hi,UNKNOWN
+1384,tell me a joke,UNKNOWN
+1385,please hi,UNKNOWN
+1386,can you open the door,UNKNOWN
+1387,what is the weather,UNKNOWN
+1388,please open the door,UNKNOWN
+1389,can you hello,UNKNOWN
+1390,hi,UNKNOWN
+1391,can you open the door,UNKNOWN
+1392,could you what is the weather,UNKNOWN
+1393,can you play music,UNKNOWN
+1394,hey what time is it,UNKNOWN
+1395,can you what time is it,UNKNOWN
+1396,hey assistant play music,UNKNOWN
+1397,can you what time is it,UNKNOWN
+1398,hi,UNKNOWN
+1399,what is the weather,UNKNOWN
+1400,hey assistant open the door,UNKNOWN
+1401,please hi,UNKNOWN
+1402,please hello,UNKNOWN
+1403,could you hi,UNKNOWN
+1404,tell me a joke,UNKNOWN
+1405,can you open the door,UNKNOWN
+1406,hey what is the weather,UNKNOWN
+1407,hey assistant open the door,UNKNOWN
+1408,could you what time is it,UNKNOWN
+1409,what is the weather,UNKNOWN
+1410,what is the weather,UNKNOWN
+1411,hey assistant tell me a joke,UNKNOWN
+1412,hey assistant what is the weather,UNKNOWN
+1413,could you tell me a joke,UNKNOWN
+1414,hey assistant open the door,UNKNOWN
+1415,hey assistant hello,UNKNOWN
+1416,can you play music,UNKNOWN
+1417,what is the weather,UNKNOWN
+1418,what time is it,UNKNOWN
+1419,hey assistant play music,UNKNOWN
+1420,hey assistant play music,UNKNOWN
+1421,please hi,UNKNOWN
+1422,open the door,UNKNOWN
+1423,please what time is it,UNKNOWN
+1424,hey assistant tell me a joke,UNKNOWN
+1425,open the door,UNKNOWN
+1426,hey assistant what time is it,UNKNOWN
+1427,hey assistant hello,UNKNOWN
+1428,open the door,UNKNOWN
+1429,hey assistant hi,UNKNOWN
+1430,could you play music,UNKNOWN
+1431,please play music,UNKNOWN
+1432,hey open the door,UNKNOWN
+1433,hey what is the weather,UNKNOWN
+1434,what time is it,UNKNOWN
+1435,what is the weather,UNKNOWN
+1436,open the door,UNKNOWN
+1437,open the door,UNKNOWN
+1438,open the door,UNKNOWN
+1439,please what is the weather,UNKNOWN
+1440,please what is the weather,UNKNOWN
+1441,could you what is the weather,UNKNOWN
+1442,please hi,UNKNOWN
+1443,please play music,UNKNOWN
+1444,could you tell me a joke,UNKNOWN
+1445,hey assistant tell me a joke,UNKNOWN
+1446,hey what is the weather,UNKNOWN
+1447,open the door,UNKNOWN
+1448,hey assistant hi,UNKNOWN
+1449,can you open the door,UNKNOWN
+1450,please hello,UNKNOWN
+1451,hey open the door,UNKNOWN
+1452,hey hi,UNKNOWN
+1453,open the door,UNKNOWN
+1454,hi,UNKNOWN
+1455,please play music,UNKNOWN
+1456,open the door,UNKNOWN
+1457,hey assistant open the door,UNKNOWN
+1458,can you play music,UNKNOWN
+1459,what time is it,UNKNOWN
+1460,hey what is the weather,UNKNOWN
+1461,hey tell me a joke,UNKNOWN
+1462,can you what time is it,UNKNOWN
+1463,what time is it,UNKNOWN
+1464,hey assistant play music,UNKNOWN
+1465,open the door,UNKNOWN
+1466,could you what time is it,UNKNOWN
+1467,please play music,UNKNOWN
+1468,please play music,UNKNOWN
+1469,can you what time is it,UNKNOWN
+1470,could you tell me a joke,UNKNOWN
+1471,hey assistant hello,UNKNOWN
+1472,hey assistant open the door,UNKNOWN
+1473,play music,UNKNOWN
+1474,can you play music,UNKNOWN
+1475,hey play music,UNKNOWN
+1476,please play music,UNKNOWN
+1477,open the door,UNKNOWN
+1478,could you open the door,UNKNOWN
+1479,what time is it,UNKNOWN
+1480,hey assistant what time is it,UNKNOWN
+1481,can you hi,UNKNOWN
+1482,please tell me a joke,UNKNOWN
+1483,please open the door,UNKNOWN
+1484,could you tell me a joke,UNKNOWN
+1485,what is the weather,UNKNOWN
+1486,hey assistant what is the weather,UNKNOWN
+1487,hey assistant what time is it,UNKNOWN
+1488,hey tell me a joke,UNKNOWN
+1489,open the door,UNKNOWN
+1490,hello,UNKNOWN
+1491,hey assistant play music,UNKNOWN
+1492,can you open the door,UNKNOWN
+1493,hello,UNKNOWN
+1494,open the door,UNKNOWN
+1495,can you what time is it,UNKNOWN
+1496,can you hello,UNKNOWN
+1497,hey hi,UNKNOWN
+1498,hey hi,UNKNOWN
+1499,tell me a joke,UNKNOWN
+1500,turn on the light,LIGHT_ON
+1501,switch on the light,LIGHT_ON
+1502,turn the light on,LIGHT_ON
+1503,please turn on the light,LIGHT_ON
+1504,activate the light,LIGHT_ON
+1505,enable the lamp,LIGHT_ON
+1506,turn on my lamp,LIGHT_ON
+1507,make the light turn on,LIGHT_ON
+1508,light on,LIGHT_ON
+1509,lamp on,LIGHT_ON
+1510,power on the light,LIGHT_ON
+1511,can you turn on the light,LIGHT_ON
+1512,turn the LED on,LIGHT_ON
+1513,switch the LED on,LIGHT_ON
+1514,I need the light on,LIGHT_ON
+1515,It's dark switch on light,LIGHT_ON
+1516,turn off the light,LIGHT_OFF
+1517,switch off the light,LIGHT_OFF
+1518,turn the light off,LIGHT_OFF
+1519,please turn off the light,LIGHT_OFF
+1520,disable the lamp,LIGHT_OFF
+1521,turn off my lamp,LIGHT_OFF
+1522,make the light turn off,LIGHT_OFF
+1523,light off,LIGHT_OFF
+1524,lamp off,LIGHT_OFF
+1525,power off the light,LIGHT_OFF
+1526,can you turn off the light,LIGHT_OFF
+1527,turn the LED off,LIGHT_OFF
+1528,switch the LED off,LIGHT_OFF
+1529,I need the light off,LIGHT_OFF
+1530,It's sunny switch off light,LIGHT_OFF
+1531,hello,UNKNOWN
+1532,hi,UNKNOWN
+1533,what is the weather,UNKNOWN
+1534,tell me a joke,UNKNOWN
+1535,what time is it,UNKNOWN
+1536,who are you,UNKNOWN
+1537,how are you,UNKNOWN
+1538,play music,UNKNOWN
+1539,open the door,UNKNOWN
+1540,increase temperature,UNKNOWN
+1541,random command,UNKNOWN

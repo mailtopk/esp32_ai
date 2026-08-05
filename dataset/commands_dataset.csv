@@ -14,8 +14,7 @@ can you turn on the light,LIGHT_ON
 turn the LED on,LIGHT_ON
 switch the LED on,LIGHT_ON
 I need the light on,LIGHT_ON
-It's dark switch on light, LIGHT_ON
-
+It's dark switch on light,LIGHT_ON
 turn off the light,LIGHT_OFF
 switch off the light,LIGHT_OFF
 turn the light off,LIGHT_OFF
@@ -30,8 +29,7 @@ can you turn off the light,LIGHT_OFF
 turn the LED off,LIGHT_OFF
 switch the LED off,LIGHT_OFF
 I need the light off,LIGHT_OFF
-It's sunny switch off light, LIGHT_OFF  
-
+It's sunny switch off light,LIGHT_OFF
 hello,UNKNOWN
 hi,UNKNOWN
 what is the weather,UNKNOWN

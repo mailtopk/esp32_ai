@@ -1,6 +1,27 @@
 # User Case
 wanted the ESP32-S3 to understand simple English commands like:
 
+## Useful commands
+```
+pio package show
+pio boards esp32-s3-devkitc-1
+pio boards | Select-String "N32R16V|WROOM-2|R16V"
+pio device monitor -p COM16 -b 115200
+pio run -t upload
+pio run -t erase
+pio run -t clean
+pio package show  espressif32
+
+pio run -v > build.log
+Select-String "esptool" .\build.log
+pio run -v > build.log 2>&1
+Get-Content build.log -Tail 50
+
+Remove-Item -Recurse -Force .pio
+est-Path lib\esp-tflite-micro\third_party\flatbuffers\include\flatbuffers\vector.h
+
+```
+
 ## Train Model
 ### Dataset
 text,label
@@ -120,3 +141,4 @@ flowchart TD
     style Deployment fill:#111827,stroke:#10b981,stroke-width:2px,color:#fff
     style J fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
 ```
+

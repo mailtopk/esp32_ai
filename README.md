@@ -1,5 +1,6 @@
 # TensorFlow Lite Text Classification on ESP32-S3
 The goal of the project is to prove that a custom trained model can be deployed on to a small edge device.
+The sequancial  model was trained on simple CPU 
 
 # User Case
 Wanted the ESP32-S3 micro controller to understand simple English commands like:
@@ -406,7 +407,7 @@ After training the model is a **float32 model**.
 
 No integer quantization is used.
 
-This is important because the ESP32 input/output types are:
+ESP32 input/output types are:
 
 ```text
 Input  = int32
@@ -420,7 +421,7 @@ Output = float32
 The final deployed model was simplified so that it uses only operators supported by the TensorFlow Lite Micro library:
 
 ```text
-GATHER
+GATHER <- EmbeddingLookup class
 MEAN
 FULLY_CONNECTED
 FULLY_CONNECTED
@@ -428,14 +429,14 @@ SOFTMAX
 ```
 
 ## Verify TFLite Model
+Full code implementation - ./inspect\inspect_model.py
 
-Before deploying to ESP32, inspect the model:
+Inspect the model:
 
 ```python
 interpreter = tf.lite.Interpreter(
     model_path="model/light_model.tflite"
 )
-
 interpreter.allocate_tensors()
 
 input_details = interpreter.get_input_details()
@@ -458,6 +459,7 @@ dtype: float32
 
 ---
 
+
 ## Generate `model.h`
 
 The `.tflite` file is converted into a C++ header for inclusion in the Arduino project.
@@ -466,49 +468,26 @@ The model must be stored as a 4-byte-aligned array.
 
 ---
 
-# 16. ESP32 Model Initialization
+# ESP32 Model Initialization
 
-The model inference code. 
+Over view of the model inference code. 
 
 ```cpp
+// Load model
 model = tflite::GetModel(light_model_tflite);
 ```
 
-Schema validation:
-
 ```cpp
-if (model->version() != TFLITE_SCHEMA_VERSION) {
-    ...
-}
-```
-
-The interpreter is created using:
-
-```cpp
-static tflite::AllOpsResolver resolver;
-
-static tflite::MicroInterpreter static_interpreter(
-    model, resolver, tensor_arena,  kTensorArenaSize,   error_reporter
-);
-```
-
-Then:
-
-```cpp
+// allocate memory
 interpreter->AllocateTensors();
 ```
-
-Input/output tensors:
-
-```cpp
-input = interpreter->input(0);
-output = interpreter->output(0);
-```
-
 ---
 
 ## ESP32 Input
-Use Arduino ID Serial monitor for testing.
+Use Arduino IDE Serial monitor for testing.
+
+![Device Serial Monitor](images/serialmonitor.gif)
+
 
 The model expects:
 
@@ -536,7 +515,7 @@ becomes:
 
 ---
 
-# 18. ESP32 Output
+## ESP32 Output
 
 The model outputs:
 
@@ -562,9 +541,9 @@ The predicted class is the index with the highest probability.
 
 ---
 
-# 19. End-to-End Verification
+# End-to-End Verification
 
-The most important validation performed was running the exact same token IDs through:
+The most important validation performed was to run the exact same token IDs through:
 
 1. Python TensorFlow Lite
 2. ESP32 TensorFlow Lite Micro
@@ -605,7 +584,7 @@ LIGHT_ON
 
 ---
 
-## 20. Verification Results
+## Verification Results
 
 ### Turn light on
 
@@ -741,5 +720,5 @@ LIGHT_ON  → GPIO HIGH
 LIGHT_OFF → GPIO LOW
 UNKNOWN   → no action
 ```
-
-and improve the training dataset/model for ambiguous commands before allowing predictions to control hardware.
+# TBD 
+Improve the training dataset/model for ambiguous commands before allowing predictions to control hardware.

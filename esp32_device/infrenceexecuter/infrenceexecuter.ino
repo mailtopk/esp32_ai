@@ -50,12 +50,12 @@ int32_t FindTokenId(const char* word) {
 //   - removes common punctuation
 //   - looks up vocabulary IDs
 //   - pads to 8 tokens with 0
+//   - predict
 //
 // ------------------------------------------------------------
 
 void Tokenize( const char* text, int32_t* output_tokens) 
 {
-
     // Padding ID is 0.
     for (int i = 0; i < kSequenceLength; ++i) {
         output_tokens[i] = 0;
@@ -139,7 +139,7 @@ void RunInference(const char* text) {
     }
 
     // Read output
-    Serial.println("Output:");
+    Serial.println("Top 3 Output:");
 
     int best_class = 0;
     float best_probability = output->data.f[0];
@@ -164,7 +164,7 @@ void RunInference(const char* text) {
     Serial.print(best_class);
 
     Serial.print(" (");
-    Serial.print(kLabels[best_class]);
+    Serial.print(kLabels[best_class]); // Predicted log
     Serial.println(")");
 
     Serial.println("========================================");
@@ -220,33 +220,11 @@ void setup() {
     input = interpreter->input(0);
     output = interpreter->output(0);
 
-
     Serial.println();
     Serial.println("Model initialized successfully.");
 
-    Serial.print("Input type: ");
-    Serial.println(input->type);
-
-    Serial.print("Input bytes: ");
-    Serial.println(input->bytes);
-
-    Serial.print("Output type: ");
-    Serial.println(output->type);
-
-    Serial.print("Output bytes: ");
-    Serial.println(output->bytes);
-
-
-    // --------------------------------------------------------
-    // Run our known test cases
-    RunInference("turn the light on");
-    RunInference("turn the light off");
-    RunInference("please turn the bedroom light on";
-    RunInference("hello");
-    RunInference( "make the room brighter");
-
     Serial.println();
-    Serial.println("Type a sentence and press ENTER.");
+    Serial.println("I’m a custom AI model. Just tell me to turn the lights on or off!");
     Serial.println();
 }
 

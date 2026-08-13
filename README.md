@@ -1,6 +1,8 @@
 # TensorFlow Lite Text Classification on ESP32-S3
 The goal of the project is to prove that a custom trained model can be deployed on to a small edge device.
-The sequancial  model was trained on simple CPU 
+The sequential  model was trained on simple CPU 
+
+![Device Serial Monitor](images/serialmonitor.gif)
 
 # User Case
 Wanted the ESP32-S3 micro controller to understand simple English commands like:
@@ -485,9 +487,6 @@ interpreter->AllocateTensors();
 
 ## ESP32 Input
 Use Arduino IDE Serial monitor for testing.
-
-![Device Serial Monitor](images/serialmonitor.gif)
-
 
 The model expects:
 

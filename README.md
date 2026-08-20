@@ -11,18 +11,19 @@ Wanted the ESP32-S3 micro controller to understand simple English commands like:
 It is a simple classification task model, LIGHT_OFF, LIGHT_ON and UNKNOWN
 
 # Hardware
- It is ESP32-S3 Dev Kit Micro controller. 
- Avoid buying cloned. 
+Is ESP32-S3 Dev Kit Micro controller.  I would recommend to avoid buying cloned. 
+
+![Device Serial Monitor](images/ESP32.png)
 
 ```text
-ESP32-S3
-Revision: v0.2
-CPU: 240 MHz
-PSRAM: 16 MB
+ESP32-S3-WROOM
+32 MB Octal Flash
+16 MB Octal PSRAM
 ```
 
 # IDE 
-VS Code for python and Arduino for uploading code onto ESP32-S3
+
+VS Code for model training and Arduino for implementing model inference and uploading code onto ESP32-S3 device
 
 # Software Libs 
  
@@ -56,7 +57,7 @@ The ESP32 inference output has been verified against the Python TensorFlow Lite 
 
 ---
 
-## 1. Project Architecture
+## 1. Project Overview
 The model was trained on an simple english sentences generated using gpt.
 
 The complete pipeline is:
@@ -77,8 +78,6 @@ graph TD
     F --> G[model inference]
     C1 -->|Deploy | F
     C2 -->|Deploy | F
-    
-
 ```
 
 ---
@@ -91,11 +90,10 @@ The Arduino library is located under:
 ../Arduino/libraries/TensorFlowLite_ESP32
 ```
 
-
-
 #### Modified TensorFlowLite_ESP32 Library
 
-These modifications are required for the current environment.
+I have to modify TensorFlowLite_ESP32 library to make the model inference code to wrok. here are the changes. 
+Make sure IDE is referring to modified lib
 
 #### Remove `screen` folder
 
@@ -108,8 +106,6 @@ TensorFlowLite_ESP32/
 └── screen/
 ```
 
-
----
 
 #### `compatibility.h`
 
@@ -134,7 +130,6 @@ and noexcept
 
 The purpose is to provide the required `operator delete` implementation while avoiding the compilation issues encountered with the ESP32 build.
 
----
 
 #### `stl_emulation.h`
 
@@ -167,7 +162,7 @@ Keep this modification documented because it is a local modification to the Tens
 
 ### Training Dataset
 
-The model is trained from:
+The model is trained from the dataset :
 
 ```text
 dataset/generated_dataset.csv
@@ -182,12 +177,12 @@ label
 
 Example structure:
 
-```text
-text,label
-turn the light on,LIGHT_ON
-turn the light off,LIGHT_OFF
-hello,UNKNOWN
-```
+|text|label|
+|----|----|
+|turn the light on | LIGHT_ON |
+| turn the light off | LIGHT_OFF |
+| hello | UNKNOWN|
+
 
 Training loads the dataset using:
 
@@ -200,15 +195,7 @@ labels = df["label"].values
 
 ---
 
-## Label Encoding
-
-Labels are converted to integer class IDs using `LabelEncoder`.
-
-```python
-encoder = LabelEncoder()
-
-y = encoder.fit_transform(labels)
-```
+## Current Labels
 
 The current labels are:
 
@@ -222,28 +209,16 @@ The labels are saved to:
 
 ```text
 model/labels.json
-model/label_encoder.pkl
 ```
 
 A C++ header is also generated for ESP32:
+
+./generater/gen_labels_h_file.py
 
 ```text
 labels.h
 ```
 
-Example:
-
-```cpp
-#pragma once
-
-static const char* kLabels[] = {
-    "LIGHT_OFF",
-    "LIGHT_ON",
-    "UNKNOWN"
-};
-
-static const int kNumLabels = 3;
-```
 
 ---
 
@@ -421,7 +396,7 @@ SOFTMAX
 ```
 
 ## Verify TFLite Model
-Full code implementation - ./inspect\inspect_model.py
+Full code implementation - ./inspect/inspect_model.py
 
 Inspect the model:
 
@@ -710,4 +685,6 @@ LIGHT_OFF → GPIO LOW
 UNKNOWN   → no action
 ```
 # TBD 
-Improve the training dataset/model for ambiguous commands before allowing predictions to control hardware.
+- [ ] Explore DL models.
+- [ ] Improve the training dataset/model for ambiguous commands before allowing predictions to control hardware.
+

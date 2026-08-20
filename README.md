@@ -64,31 +64,21 @@ The complete pipeline is:
 graph TD
     %% Training Dataset to Serialization
     A[CSV Dataset] --> B[Keras Tokenizer]
-    B --> B1[tokenizer.json]
-    B --> B2[tokenizer.pkl]
-    B --> B3[tokenizer_vocab.h]
 
     %% Training to Conversion
     B --> C[Keras Classification Model]
-    C --> D[light_model.keras]
-    D --> E[TensorFlow Lite Converter]
-    E --> F[light_model.tflite]
-    F --> G[model.h]
+    C -->|Create|C1[tokenizer.json]
+    C -->|Create| C2[labels.json]
+    C -->|Convert to tensorflow lite| D[light_model.tflite]
+    D -->|Convert to ESP32-S3 model | E[model.h]
 
     %% MCU Deployment and Inference Pipeline
-    G --> H[ESP32-S3]
-    H --> I[Text]
-    I --> J[ESP32 tokenizer]
-    J --> K[8 × int32 token IDs]
-    K --> L[TensorFlow Lite Micro]
-    L --> M[3 × float32 probabilities]
-    M --> N[argmax]
-    N --> O[LIGHT_OFF / LIGHT_ON / UNKNOWN]
+    E --> |Deploy | F[ESP32-S3 Micro controller]
+    F --> G[model inference]
+    C1 -->|Deploy | F
+    C2 -->|Deploy | F
+    
 
-    %% Styling for better scannability
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#bbf,stroke:#333,stroke-width:2px
-    style O fill:#bfb,stroke:#333,stroke-width:2px
 ```
 
 ---

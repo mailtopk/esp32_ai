@@ -1,19 +1,10 @@
 # TensorFlow Lite Text Classification on ESP32-S3
 The goal of the project is to prove that a custom trained model can be deployed on to a small edge device.
-The sequential  model was trained on simple CPU 
-
-![Device Serial Monitor](images/serialmonitor.gif)
-
-# User Case
-Wanted the ESP32-S3 micro controller to understand simple English commands like:
-    - Switch off the light
-    - Switch off the light
-It is a simple classification task model, LIGHT_OFF, LIGHT_ON and UNKNOWN
+The sequential  model was trained on a simple CPU to follow the English sentence command to switch off and on the light.
 
 # Hardware
-Is ESP32-S3 Dev Kit Micro controller.  I would recommend to avoid buying cloned. 
-
-![Device Serial Monitor](images/ESP32.png)
+Is ESP32-S3 Dev Kit Micro controller. It is a lower power, low cost between $10 - $17 dual-core 32-bit Xtensa LX7 microprocessor with 44 GPIOs pins to connect with other IOT devices. 
+I would recommend avoiding buying clones. 
 
 ```text
 ESP32-S3-WROOM
@@ -21,14 +12,30 @@ ESP32-S3-WROOM
 16 MB Octal PSRAM
 ```
 
+![Device Serial Monitor](images/ESP32.png)
+
+
+# User Case
+Wanted the ESP32-S3 micro controller to understand simple English commands like:
+
+    - Switch off the light
+    - Switch off the light
+It is a simple classification task model, LIGHT_OFF, LIGHT_ON and UNKNOWN
+
+The image shows the output of commands with a score on a Arduino serial monitor.
+
+![Device Serial Monitor](images/serialmonitor.gif)
+
 # IDE 
 
-VS Code for model training and Arduino for implementing model inference and uploading code onto ESP32-S3 device
+VS Code for model training using Python 
+
+Arduino for implementing model inference and uploading code onto ESP32-S3 device using C++
 
 # Software Libs 
  
  TensorFlowLite_ESP32
- - Tensorflow Lite, I have ended up modifying some file from the lib
+ - Tensorflow Lite, I have modified some files of the lib
 
 
 ## Lib modification details
@@ -52,9 +59,6 @@ Current classes:
 1 = LIGHT_ON
 2 = UNKNOWN
 ```
-
-The ESP32 inference output has been verified against the Python TensorFlow Lite interpreter and produces matching results.
-
 ---
 
 ## 1. Project Overview
@@ -156,7 +160,7 @@ FLATBUFFERS_CONSTEXPR_CPP14 span &operator=(const span &other)
 }
 ```
 
-Keep this modification documented because it is a local modification to the TensorFlow Lite library and may need to be reapplied if the library is reinstalled or updated.
+Keep this modification documented, it is a local modification to the TensorFlow Lite library and may need to be reapplied if the library is reinstalled or updated.
 
 ---
 
@@ -168,30 +172,13 @@ The model is trained from the dataset :
 dataset/generated_dataset.csv
 ```
 
-The CSV contains at least:
-
-```text
-text
-label
-```
-
-Example structure:
+The CSV contains ...
 
 |text|label|
 |----|----|
 |turn the light on | LIGHT_ON |
 | turn the light off | LIGHT_OFF |
 | hello | UNKNOWN|
-
-
-Training loads the dataset using:
-
-```python
-df = pd.read_csv("dataset/generated_dataset.csv")
-
-texts = df["text"].values
-labels = df["label"].values
-```
 
 ---
 
@@ -247,18 +234,13 @@ Sequences are generated with:
 X = tokenizer.texts_to_sequences(texts)
 ```
 
-The maximum sequence length is:
 
-```python
-MAX_LEN = 8
-```
-
-Padding is:
+Padding is: 8
 
 ```python
 X = pad_sequences(
     X,
-    maxlen=MAX_LEN,
+    maxlen=8,
     padding="post",
     truncating="post"
 )
@@ -278,15 +260,12 @@ Padding uses:
 
 ---
 
-## Important Tokenizer Warning
-
-Multiple tokenizer versions existed during development.
-
+## Important Tokenizer 
 This is extremely important:
 
 > The tokenizer vocabulary must match the model that was trained with it.
 
-For example, the currently deployed model uses IDs such as:
+The currently deployed model uses IDs such as:
 
 ```text
 turn      = 28
@@ -301,23 +280,6 @@ make      = 20
 room      = 17
 brighter  = 1
 ```
-
-A different tokenizer generated different IDs.
-
-For example, another tokenizer version produced:
-
-```text
-turn      = 3
-light     = 4
-on        = 5
-off       = 6
-```
-
-Those tokenizers are **not interchangeable**.
-
-Using the wrong tokenizer with a model produces incorrect predictions even though the TensorFlow Lite model itself is functioning correctly.
-
-Always generate `tokenizer_vocab.h` from the tokenizer associated with the model being deployed.
 
 ---
 
@@ -341,7 +303,7 @@ static const VocabEntry kVocabulary[] = {
 };
 ```
 
-The ESP32 performs a lookup:
+While running model inference, the ESP32 performs a lookup:
 
 ```text
 word  -> vocabulary lookup -> integer token ID
@@ -351,8 +313,8 @@ Unknown words use the OOV token ID.
 
 ---
 
-### Model Architecture
-### Model Summary: "sequential"
+
+## Trained Model Summary: "sequential"
 
 | Layer (type) | Output Shape | Param # |
 | :--- | :--- | :--- |
@@ -385,10 +347,10 @@ Output = float32
 
 ## TFLite Model Operators
 
-The final deployed model was simplified so that it uses only operators supported by the TensorFlow Lite Micro library:
+The deployed model was simplified so that it uses only operators supported by the TensorFlow Lite Micro library:
 
 ```text
-GATHER <- EmbeddingLookup class
+GATHER <- EmbeddingLookup class (custom class)
 MEAN
 FULLY_CONNECTED
 FULLY_CONNECTED
@@ -427,7 +389,7 @@ dtype: float32
 ---
 
 
-## Generate `model.h`
+## Generate `model.h` file
 
 The `.tflite` file is converted into a C++ header for inclusion in the Arduino project.
 
@@ -435,9 +397,10 @@ The model must be stored as a 4-byte-aligned array.
 
 ---
 
-# ESP32 Model Initialization
+# Model Inference 
 
 Over view of the model inference code. 
+
 
 ```cpp
 // Load model
@@ -453,25 +416,11 @@ interpreter->AllocateTensors();
 ## ESP32 Input
 Use Arduino IDE Serial monitor for testing.
 
-The model expects:
-
-```text
-[1, 8] int32
-```
-
-Therefore the ESP32 writes token IDs using:
-
-```cpp
-input->data.i32[i] = tokens[i];
-```
-
-For example:
-
 ```text
 "turn the light on"
 ```
 
-becomes:
+at runtime it becomes:
 
 ```text
 [28, 2, 5, 15, 0, 0, 0, 0]
@@ -610,23 +559,6 @@ Prediction:
 UNKNOWN
 ```
 
-### Make room brighter
-
-```text
-Input:
-[20, 2, 17, 1, 0, 0, 0, 0]
-
-Output:
-LIGHT_OFF: 0.580315
-LIGHT_ON:  0.416532
-UNKNOWN:   0.003153
-
-Prediction:
-LIGHT_OFF
-```
-
-The last example demonstrates that the ESP32 is reproducing the model exactly, even when the model makes a questionable classification.
-
 ---
 
 
@@ -686,5 +618,7 @@ UNKNOWN   → no action
 ```
 # TBD 
 - [ ] Explore DL models.
+- [ ] Try WakeNet
+- [ ] Try MultiNet 
 - [ ] Improve the training dataset/model for ambiguous commands before allowing predictions to control hardware.
 

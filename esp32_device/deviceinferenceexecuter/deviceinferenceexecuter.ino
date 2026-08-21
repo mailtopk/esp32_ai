@@ -17,6 +17,8 @@ tflite::MicroInterpreter* interpreter = nullptr;
 TfLiteTensor* input = nullptr;
 TfLiteTensor* output = nullptr;
 
+#define DEVICE_LED_PIN 38
+
 
 // Model is ~67 KB, but the model itself lives in flash.
 // The tensor arena is RAM used by the interpreter.
@@ -168,9 +170,26 @@ void RunInference(const char* text) {
     Serial.println(")");
 
     Serial.println("========================================");
+
+    if (best_class == 0) // LIGHT_OFF
+    {
+        neopixelWrite(DEVICE_LED_PIN, 0,0,0); // LIGHT_OFF
+    }
+    else if (best_class == 1)
+    {
+        neopixelWrite(DEVICE_LED_PIN, 0,0,100); // LIGHT_ON
+    }
+    else { // 2 UNKNOWN
+        neopixelWrite(DEVICE_LED_PIN, 100,0,0);
+        delay(500);
+        neopixelWrite(DEVICE_LED_PIN, 0,0,0);
+        delay(500);
+        neopixelWrite(DEVICE_LED_PIN, 100,0,0);
+    }
 }
 
 void setup() {
+    neopixelWrite(DEVICE_LED_PIN, 0, 0, 0);
     Serial.begin(115200);
     delay(1500);
 

@@ -19,7 +19,7 @@ ESP32-S3-WROOM
 Wanted the ESP32-S3 micro controller to understand simple English commands like:
 
     - Switch off the light
-    - Switch off the light
+    - Switch on the living room light
 It is a simple classification task model, LIGHT_OFF, LIGHT_ON and UNKNOWN
 
 The image shows the output of commands with a score on a Arduino serial monitor.
